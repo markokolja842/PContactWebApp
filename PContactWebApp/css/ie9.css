@@ -1,0 +1,29 @@
+﻿body {
+}
+
+    .margin_input .ico.input_field::before { font-size: 0.6em; line-height: 0.4; }
+    .osnPaket, .staPaket, .pluPaket { display: inline-block; width: 31%; margin-bottom: 1em; }
+    .entypo-home.osnovni::before, .entypo-home.standardni::before, .entypo-home.plus::before { right: 5%; }
+    .progress-bar .complete .item::before { font-size: 0.5em; }
+    .datumi .sume span:first-child { padding-top: 0.8em; }
+    .strana_hh form .row .progress-bar .complete .item::before { font-size: 0.6em; }
+    .margin_input .entypo-mail.ico.btn::before { top: -20px; font-size: 0.8em; }
+    .margin_input .entypo-mail.ico.btn a { padding-left: 2.5em; }
+    .forma .margin_input .entypo-mail { width: 45%; }
+    .entypo-chevron-thin-down::before, .entypo-chevron-thin-up::before { top: 17px; }
+    .strana_hh #form1 .row .eight .destination_hh .ico.entypo-search:before { font-size: 0.28em; }
+    .data_hh .eight .input_hh .tabMoveInitialized { height: 3.15em; }
+    .sume .rangeNumber { font-size: 1.5em; height: 1.5em; line-height: 1; }
+    .strana_hh #form1 + .data_hh { display: none; }
+    .ph_text { top: 50px; }
+    .tabMoveInitialized::-ms-clear { width: 0; height: 0; display: none; }
+    input[type=text]::-ms-clear { display: none; }
+    .bx-controls .bx-pager { z-index: 9999; }
+    .bx-wrapper .bx-controls .bx-controls-direction a { z-index: 9999; }
+    table.tbl_paketi .entypo-check::before { font-size: 0.6em; }
+    .margin_input infobtn label::before { font-size: 0.6em; }
+    div.icomoon-file-pdf-o.ico.six.btn::before { right: 12.5em; }
+
+        @media screen and (max-width: 400px) {
+        .tel_br .icomoon-phone::before {top: 0.6em; font-size: 0.8em; left: -2em; }
+        }

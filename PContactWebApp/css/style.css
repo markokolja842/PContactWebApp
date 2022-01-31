@@ -1,0 +1,1705 @@
+﻿body {
+}
+
+h1, h2 { font-family: Futura-pt-bold; color: #4a4a4a; font-size: 2.714em; }
+h2 { font-size: 1.714em; }
+
+
+@font-face {
+    font-family: Futura-pt-bold;
+    src: url('fonts/Futura-pt-bold.eot');
+    src: url('fonts/Futura-pt-bold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/Futura-pt-bold.woff') format('woff'),
+     url('fonts/Futura-pt-bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: Futura-pt-book;
+    src: url('fonts/Futura-pt-book.eot');
+    src: url('fonts/Futura-pt-book.eot?#iefix') format('embedded-opentype'),
+     url('fonts/Futura-pt-book.woff') format('woff'),
+     url('fonts/Futura-pt-book.otf') format('truetype');
+}
+
+.index_strana #form1 .counter { padding: 2em 0; }
+.index_strana #form1 .counter .row .columns .linijaHome { margin-bottom: 1em; }
+.index_strana #form1 .content { padding-top: 2.5em; }
+.hh_box { padding-top: 3em; }
+.hh_box .twelve .podnaslov_text { padding-left: 1em; padding-right: 2em; }
+
+.rl_container .twelve a img { width: 49.6%; float: left; display:inline-block;}
+.rl_container .twelve a .box_proizvod_info { width: 49.999%; float: left; padding-left: 2em;display:inline-block; max-height:none;min-height: 24em;}
+.rl_container .twelve a p { margin-bottom: 4em; padding-right: 3em; max-height: initial; }
+.rl_container .box_proizvod a:hover .box_proizvod_info .bgd9 { background: #fff; width: 4em; transition: .3s; }
+.box_proizvod.twelve { margin-bottom: 1em; }
+
+.hh_box .box_proizvod_link .fa-arrow-right:before { color: #FBAF3F; }
+.hh_box .rl_container .box_proizvod a .box_proizvod_info .bgd9 { background-color: #FBAF3F; }
+.hh_box .rl_container .box_proizvod a:hover .box_proizvod_info .bgd9 { background: #fff; }
+.hh_box .rl_container .twelve a:hover .box_proizvod_info, .hh_box .rl_container .twelve a:hover h3, .hh_box .rl_container .twelve a:hover p, .hh_box .rl_container .twelve a:hover .fa-arrow-right:before { background-color: #FBAF3F; }
+
+.logo img { max-width: 12.2em; margin: 10px; margin-top: 0; }
+
+.tel_br { margin-top: 1em}
+.tel_br h2 { font-family: Futura-pt-bold; font-size:1.571em; color: #E20714; font-weight:bold; }
+.tel_br .icomoon-phone:before { font-size:1.5em; color:#3b3b3b; margin-left:-0.7em; padding-right:10px; padding-top: 0.3em; }
+.tel_br label { font-size: 0.68em;  }
+.tel_br .right { font-size: 100%; border-left: 2px solid rgba(211, 211, 211, 0.5); padding-left: 0.5em; }
+
+/*.meni_main { background-color: #E20714 }
+ul#main_menu ul {  }*/
+ul#main_menu li:nth-child(2) { padding-left: 0.5em; }
+ul#main_menu li:nth-child(3) { padding-left: 0; }
+ul#main_menu li  { display:inline-block; padding-left: 1em; }/*
+ul#main_menu li a { width: auto; display:inline-block; font-size:1.2em; padding: 17px 30px; -webkit-transition: background-color 0.2s ease-out; -moz-transition: background-color 0.2s ease-out; -o-transition: background-color 0.2s ease-out; transition: background-color 0.2s ease-out; }*/
+ul#main_menu li a { display: inline-block; font-family: Arial, sans-serif; font-style: normal; font-weight: normal; }
+ul#main_menu li a:hover { color: #E20714; /*font-weight: bold;*/ }
+ul#main_menu li a::after { display: block; content: attr(title); font-weight: bold; height: 0; overflow: hidden; visibility: hidden; }
+.menu { display: block; width: 100%; text-align: right; font-size: 1.2em; margin-top: 1.4em; }
+.meni_main.row { padding-top: 0; }
+.tel_br .right:hover .icomoon-phone:before { text-shadow: 1px 1px 2px #E20714; }
+.hand:hover { cursor: pointer; }
+.slider { border-top: 4px solid #E20714; }
+.slider::after { content: ""; clear: both; display: block; }
+.slider img { width: 100%; }
+.slajder_info_beli { position:absolute; bottom:30%; left: 20%; min-height: 150px; width: 60%;text-align:center; }
+.slajder_info_beli h3 { font-family: Futura-pt-bold; font-size:4.571em; font-weight:bold; padding-bottom: 1em; color: white; text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+.slajder_info_beli p { color: #DEDEDE; font-size:1.714em; line-height: normal; margin-bottom: 2em; }
+.slajder_info_beli .btn a { padding: 0.76em 1.65em; font-weight: bold; font-size:1.714em }
+.sliderBtn:hover { background-color: white; }
+.sliderBtn:hover a { color: #1B75BB; }
+.bx-wrapper img { opacity: 0.4; }
+.bx-wrapper .bx-pager { text-align: center; font-size: .85em; font-weight: bold; color: #666; padding-top: 20px; }
+.bx-viewport { height:680px; }
+.bxslider li { background-color: #262626; }
+.sliderBtn { border-radius: 30px; -webkit-box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.45); -moz-box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.45); box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.45); }
+.bx-wrapper .bx-pager.bx-default-pager a {width: 0.786em; height: 0.786em; border-radius: 10px; }
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active { background: #E20714; }
+.pocet_na_slider .entypo-chevron-thin-left:before, .pocet_na_slider .entypo-chevron-thin-right:before { font-size: 5em; line-height: 0; color: #fff; }
+._bx_nazad3, a.bx-prev:after { left: 1%; }
+.bx-wrapper .bx-controls-direction a { top: 48%!important; }
+.bx-wrapper .bx-next { right: 1.5%!important; }
+.bx-wrapper .bx-prev { left: 1%!important; } 
+.counter { background-color: #FFFFFF; padding: 4em 0; font-weight: bold; }
+.counterNum { text-align:center; }
+.counter h2,.counter h3  { color:#4A4A4A; line-height:1.4; }
+.counter h2  { font-size: 2.4em; font-weight:bold; text-transform: uppercase; padding-bottom: 0.5em; font-family: Futura-pt-bold; }
+.counter h2 span { font-family: Futura-pt-bold; }
+.counter h3  { font-family: Futura-pt-bold; font-size:1.286em; padding: 0.5em 1em 0; }
+.w19p { width: 19.999%; }
+.counterNum.columns.w19p h2{line-height: 0.8em;height: 2em;}
+.content { position:relative; background-color: rgb(242,242,242);padding-bottom:7em;}
+.content > .row { padding-left: -10px; padding-right:-10px; }
+.content .podnaslov { padding: 15px; font-weight: bold; }
+.content .podnaslov_text { color: #4A4A4A; padding: 2em 4em 4em 2em; font-size: 1.143em; }
+.podnaslov_text li { list-style-type: disc; }
+
+.box_proizvod { padding: 0 1em !important; margin-bottom: 1em; }
+.box_proizvod a:hover .box_proizvod_info, .box_proizvod a:hover .box_proizvod_info h3, .box_proizvod a:hover .box_proizvod_info p, .box_proizvod a:hover .box_proizvod_info a, .box_proizvod a:hover .fa-arrow-right:before { background-color: #1B75BB; color: white }
+.box_proizvod a:hover .linija { background: white; width: 4em; transition: .3s; }
+.box_proizvod img { width:100%; }
+.box_proizvod_info { box-sizing:border-box; padding: 1em; padding-bottom: 5em; background-color: white; max-height: 19em; }
+.box_proizvod_info h3 { font-family: Futura-pt-bold; font-weight:bold; padding-bottom: 1em; padding-top: 1em; font-size: 1.643em; }
+/*.putno_box .rl_container .twelve a .box_proizvod_info { width: 49.999%; float: left; padding-left: 2em; display: inline-block; max-height: none; min-height: 26em; }
+.putno_box .rl_container .twelve a img { width: 49.999%; float: left; display: inline-block; }*/
+.razlika { width: 66.666%; }
+.linija { width: 2.93em; height: 0.35em; margin-bottom: 2em; display: block; }
+.linijaHome { width: 2.93em; border: 2px solid #E20714; }
+.linijaTA { width: 2.93em; border: 2px solid #1B75BB; }
+.linijaHH { width: 2.93em;  border: 2px solid #FBAF3F; }
+/*.linija2 { display: inline-block!important; width: 100%; height: 1px; margin-top: 3em; margin-bottom: 2em; }*/
+.box_proizvod_info p {font-size:1.143em; line-height:1.2; margin-bottom: 2em; padding-top: 1em; max-height: 3.6em; overflow: hidden; }
+/*.box_proizvod_info a { font-family: Futura-pt-bold; font-size: 1.143em; }*/
+.box_proizvod_link { font-family: Arial!important; font-style: italic; font-weight: normal; }
+.fa-arrow-right { line-height: 1.3!important; font-size: 0.9em; padding-left: 0.3em; }
+.fa-arrow-right:before { color: #1B75BB; }
+#UgovaracText, #NosilacText { padding-left: 1.5em; /*padding-right: 18em;*/ }
+#UgovaracText ul li, #NosilacText ul li { font-style: italic; list-style-type: disc; line-height: 1; }
+.lice_podaci .row .osiguranikStranac { padding-bottom: 1.5em; padding-top:0.5em; letter-spacing: 1px; }
+.margin_input span.predugovornoTekst { margin-top: 3em; font-size: 1.143em; width: 90%; letter-spacing: 1px; }
+
+.lice_podaci + script + .sablon_wizard_footer .row .wizard_footer { width: 100%; }
+
+.kreiranje_polise_neuspesno span a { color: #E20714; }
+
+.input:focus, .select:focus { border-color: #000; box-shadow: 0 0 0 1px #000; }
+.radio span { border-radius: 25%; }
+.radio.checked span:before { content: "\1F5FA"; color: #1b75bb; top: 10%; padding: 5% 10%; }
+
+poruka[greska][Za] { line-height: 1.1; width: 100%; padding-top: 0.7em; font-style: italic; font-size: 14px; color: #ff0000;  }
+
+.razlicitoDugme .row .linija { margin-bottom: 1em; }
+.razlicitoDugme .forma .paddingBottom2em + .row label { font-size: 1.143em; letter-spacing: 1px; padding-bottom: 1em; }
+
+.izabraliste_box_label h2 { font-family: Arial; }
+.naslov_ostali_osiguranici .linija, .podaci_o_licu + .margin_input .eight .linija  { margin-bottom: 0; }
+/*#ContentPlaceHolder1_wuc_placanjeUplatnicom_placanje_pouzecem + .razlika .linija2 { width: 100%; }*/
+.margLef { margin-left: 1.8em;}
+.ostaliOsiguranici .ostaliOsiguraniciInput span { padding-bottom: 0.5em; }
+.nosilacOsiguranja { font-size: 1.143em; letter-spacing: 1px; }
+
+.zvezdica{ display: inline-block !important; padding-left: 3px; color: red; font-size: 1.4em !important;}
+
+.row + .placanje_isporuka .bgd7 { padding: 2em; } 
+#nacinIsporuke .invisible .marginBottom05 input, #nacinIsporuke .invisible .input_field .input_destination { width: 100%; }
+
+.kartice_za_placanje .columns { padding: 2em!important; }
+.kartice_za_placanje .eight span { padding-bottom: 1.5em; }
+.karticaPlacanje { width: 100%;  }
+
+.kartica { padding: 0 1em; }
+
+/*PLACANJA*/
+    .forma .napomena {
+        background-color: #f2f2f2;
+        padding: 20px 20px 20px 20px;
+        box-sizing: border-box;
+        min-height: 50px;
+        border-bottom: 20px solid white;
+    }
+
+.skini_dokument { display: inline-block; float: right; }
+
+.dok_uplatnica { display: inline-block; }
+
+    div.btn.six.ico.entypo-text-doc:before {
+        zoom: 2.5 !important;
+        border-right: 0.5px solid white;
+        width: 14px;
+    }
+
+    div.btn.six.ico.icomoon-file-pdf-o:before {
+        font-size: 2em;
+        z-index: 1;
+        right: 8em;
+        position: absolute;
+        text-decoration: none;
+        zoom: 1.5;
+        width: 1.1em;
+        border-right: 0.5px solid white;
+    }
+
+    .btn.doc_download.ico:before {
+        line-height: 1.15em;
+    }
+
+
+
+/*END PLACANJA*/
+
+
+
+/*HH*/
+
+.strana_hh form .content .row .twelve .podnaslov_text { padding-left: 1em; padding-bottom: 2.5em; line-height: 1.38; }
+
+.counter_hh { padding: 2em 0 3em 0; }
+.counter  .row .three > h2 { text-transform: none; font-size: 2.3em; padding-bottom: 0.4em; }
+.counter_hh .row .three h3 { line-height: normal; padding: 0.5em 0.8em 0; letter-spacing: 1px; }
+.counter_hh .row .columns .linijaHome { margin-bottom: 1em; }
+.data_hh .eight .first_input input { width: 60%; }
+.data_hh .eight h2 { padding-bottom: 1em; font-family: Arial; }
+.input_hh { display: inline-block; width: 39%; overflow: hidden; }
+.input_hh span { padding-bottom: 0.5em; }
+.input_hh input { padding: 0.4em; border-radius: 10px; width: 75%; padding-right: 0; padding-left: 0.8em; border-bottom-right-radius: 0; border-top-right-radius: 0; font-weight: bold; }
+.data_hh .sume, .datumi .sume { border-top: 1px solid #D9D9D9; padding: 1em 0; }
+.destination_hh + .sume {  margin-top: 2em; }
+.data_hh .eight .sume span { font-size: 1.143em; }
+.data_hh .sume span:first-child, .datumi .sume span:first-child { font-weight: normal; padding-right: 0.5em; }
+.data_hh .eight .sume span, .datumi .sume span { display: inline-block; vertical-align: middle; }
+.destination_hh { display: inline-block; width: 37%; border-bottom-left-radius: 10px; border-top-left-radius: 10px; float: right; }
+.destination_hh.margin_input .input_field.ico:before { width: 0.89em; height: 0.89em; font-size: 4.2em; line-height: 0.4; }
+.destination_hh .input_field .input_destination_hh .select2-container--default .select2-selection--single .select2-selection__placeholder { line-height: 1.6; font-size: 1em; }
+.data_hh .eight .destination_hh .input_destination_hh { width: 100%; padding-bottom: 1em; padding-top: 1em; height: 3.7em; padding-left: 53px; }
+/*.destination_hh .input_field.ico:before { background-color: #FFCD84 !important; }*/
+.input_destination_disabled, .input_destination_disabled .select2-container--disabled .selection .select2-selection--single { background-color: #E2E2E2; }
+/*.datum_hh_ico { background-color: #FFCD84!important; }*/
+.datum_hh_ico.icomoon-calendar { height: 2.17em; width: 2.17em; }
+.destination_hh .input_field .input_destination_hh .select2-container--default .select2-selection--single .select2-selection__rendered { line-height: 1.5; font-size: 0.77em; padding-left: 1.5em; }
+.yearLater { background-color: transparent; }
+.slidercontainer_hh { width: 200px; padding-top: 100px; margin: 0 auto; }
+.range-control { position: relative; width: initial; padding: 3em 0; margin: 0; }
+.rangeslider--horizontal { height: 5px; background: #D8D8D8; }
+.rangeslider--horizontal .rangeslider__handle { top: -25px; color: #fff; }
+.data_hh .eight .input_hh { width: 31% }
+/*.data_hh .eight #gco {width:34%;}*/
+.data_hh .eight .first_input #input_m2, .data_hh .eight .input_hh #rsd { width: 88%; }
+.ph_text {  position: absolute; display: block; top: 3.1em; z-index: 9; }
+.ph_m2 {  right: 3em; }
+.ph_rs {  right: 2.5em; }
+
+.data_hh .eight, .first_input input, .input_hh input { border-radius: 0; }
+.data_hh .eight .input_hh .tabMoveInitialized { height: 3.2em; display: block; padding: 10px 20px 10px 10px; } 
+.data_hh .eight .input_hh span, .destination_hh.margin_input span { font-size: 1.143em; }
+.margin_input .eight .destination_hh .entypo-search { margin-bottom: 0; }
+
+
+input[type=range] { display: block; width: 100%; margin: 0; -webkit-appearance: none; outline: none; height: 80px; background-color: transparent; }
+input[type=range]::-ms-track { position: relative; height: 15px; border-radius: 5px; background-color: #e2e2e2; box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+input[type=range]::-ms-thumb { position: relative; top: -22px; width: 55px; height: 55px; border: 1px solid #999; -webkit-appearance: none; background-color: #FBAF3F; border-radius: 100%; cursor: pointer; z-index: 99999; }
+input[type=range]::-ms-fill-lower, input[type=range]::-ms-fill-upper { background: transparent; }
+input[type=range]::-ms-ticks-after, input[type=range]::-ms-ticks-before { background: transparent; display: none; }
+.start_timepicker input.date_timepicker_start { border-bottom-left-radius: 10px !important; border-top-left-radius: 10px !important; }
+.sume .rangeNumber { display: inline-block; position: initial;  float: right; text-align: right; height: 1em; font-size: 1.5em; padding: 0; min-height: 0; vertical-align: middle; margin-top: 0.32em; line-height: 2.3em; width: 10em; background-color: transparent; }
+.date_timepicker_start_mask_hh { width: 50%; }
+.datepicker_hh .eight .datumi { font-size: 1.143em; }
+.datepicker_hh h2 { padding-bottom: 1em; }
+.data_hh .columns .input_hh .input:focus { border-color: none; box-shadow: none; }
+.input_hh { position: relative; }
+/*.select_destinationHH .select2-dropdown { width: 222px!important; left: 11px; }*/
+.inner_box_hh { display: flex; flex-wrap: nowrap; margin: auto; }
+.paketi { display: inline-flex; padding-left: 0.7em; }
+.unutrasnjiPaket { position: absolute; bottom: 1.5em; padding-left: 0.7em; }
+.unutrasnjiPaket label { display: block; }
+.osnovni, .standardni, .plus { margin-top: 0.5em; }
+.osnovni.entypo-home:before, .standardni.entypo-home:before, .plus.entypo-home:before { position: absolute!important; zoom: 3!important; left: auto; top: -0.4em; right: 0px; }
+.row .columns.osnPaket, .row .columns.staPaket, .row .columns.pluPaket { min-height: 10.714em; padding: 0; }
+.row .columns.osnPaket, .row .columns.staPaket { margin-right: 2.4em; }
+.shadowPaket { -webkit-box-shadow: 4px 4px 1px 2px #D5D9DB; box-shadow: 4px 4px 1px 2px #D5D9DB; }
+table.tbl_paketi td.drugatd.borrde { border-left: 0px !important; }
+table.tbl_paketi td.prvatd.borrde { border-right: 0px !important; }
+table.tbl_paketi td.drugatd, table.tbl_paketi td.trecatd { padding-left: 0px; padding-right: 0px; }
+table.tbl_paketi td.drugatd{ padding-left: 1em; padding-right: 1em; }
+table.tbl_paketi td.drugatd .redhh1, table.tbl_paketi td.trecatd .redhh1 { padding-bottom: 10px; }
+table.tbl_paketi td.drugatd .redhh2, table.tbl_paketi td.trecatd .redhh2 { border-top: 0.5px solid #979797; padding-top: 10px; }
+table.tbl_paketi tr td { padding-top: 10px !important; }
+table.tbl_paketi.vrstaPokrica1 .tbl_naslov .drugath h3, table.tbl_paketi.vrstaPokrica2 .tbl_naslov .trecath h3 { color: #fff; }
+.xdsoft_datetimepicker.stilizacijaBoja .xdsoft_calendar td.xdsoft_current, .tabela_hh tbody .tbl_footer td, .select2-container--default.hhBoja .select2-results__option--highlighted[aria-selected], .forma .margin_input .proveraPodataka.hhBoja, .strana_hh form .row .progress-bar .current .cell .item:before { background-color: #FBAF3F !important; }
+ .strana_hh .sablon_wizard_footer .row .wizard_footer .btn_napred { background-color: #FBAF3F; }
+ .strana_hh .sablon_wizard_footer .row .wizard_footer .btn_napred.disabled { background-color: #e1e1e1!important; }
+.hhBoja .dbf_grupa .eight .input_field.ico:before { background-color: #FFCD84; }
+.hhBoja + script + .sablon_wizard_footer .row .wizard_footer { width: 66.666%; }
+.bgd11.sliderBtn:hover a, .strana_hh form .row .progress-bar .current .item span { color: #FBAF3F; }
+.xdsoft_datetimepicker.stilizacijaBoja .xdsoft_calendar td.xdsoft_today { color: #000; }
+.strana_hh form .row .progress-bar .complete .item:before { background-color: #FFCD84; }
+.sume input { background-color: transparent !important; vertical-align: middle; color: #4a4a4a; }
+.hh_dugme .forma .margin_input .forma_cehk label.toggle span { top: -0.3em; }
+.hh_dugme .forma .saglasnost .columns .forma_cehk label.checked span { background-color: #FBAF3F; top: -0.3em; }
+.hh_dugme .forma .margin_input .entypo-mail.disabled { background-color: #979797; }
+.vremeOdHH, .datum_do_hh { display: inline-block; width: 41%; }
+.trajanjeDanaHH { display: inline-block; width: 15.6%; }
+.date_timepicker_start_mask_hh, .date_timepicker_end_mask_hh, .start_timepicker_hh, .end_timepicker_hh { width: 100%; }
+.start_timepicker_hh #date_timepicker_start_mask, .end_timepicker_hh #date_timepicker_end_mask { width: 100%; }
+#date_timepicker_start_hh, #date_timepicker_end_hh { padding-right: 0; padding-left: 2.5em; border-bottom-left-radius: 10px; border-top-left-radius: 10px; height: 2.84em; }
+.datepicker_hh .paddingLeft { padding: 1.5em 1.5em 1em 2em!important; }
+.datepicker_hh.margin_input .eight h2 { font-size: 1.714em; }
+.date_timepicker_start_mask_hh poruka[greska][Za] { line-height: 1.1; width: 100%; padding-top: 0.7em; font-style: italic; font-size: 14px; color: #ff0000; }
+.date_timepicker_start_mask_hh .icomoon-calendar:before, .date_timepicker_end_mask_hh .icomoon-calendar:before { right: 0.6em; top: 0.55em; }
+.input_hh poruka[greska2][Za], .input_hh poruka[greska][Za] { padding-left: 0; line-height: 1.1; font-style: italic; color: #ff0000; width: 90%; padding-top: 0.7em; }
+#trajanje_hh { width: 100%; height: 2.85em; padding-left: 3px; }
+.radio.checked span:before { font-style: normal; }
+.radio.checked span, .inner_box_hh .four .row .checked span, .strana_hh #form1 .margin_input .eight .radio_grupa .checked span, .strana_hh #form1 .forma .row .bgd9, .hhBoja .row .eight .row .checked span { background-color: #fff; }
+.inner_box_hh .four .entypo-home .radio.checked span:before, .hhBoja .row .eight .radio_grupa .radio.checked span:before, .strana_hh #form1 .row .eight .radio_grupa .radio.checked span:before  { color: #FBAF3F; }
+
+.hhBoja .six .ugovarac_osiguranja { min-height: 14em; }
+.hhBoja .six #Ugovarac { background-color: #f2f2f2; } 
+
+.strana_hh #form1 .margin_input .input_field.ico:before, .date_timepicker_end_mask_hh .datum_hh_ico, .date_timepicker_start_mask_hh .datum_hh_ico { background-color: #FBAF3F; }
+.forma .margin_input.placanje_hh .informacijePlacanje { background-color: #FBAF3F; padding-bottom: 2em; }
+.forma .margin_input.placanje_hh .informacijePlacanje .columns { padding-left: 1.5em; padding-right: 0.75em; }
+.forma .margin_input.placanje_hh .informacijePlacanje .six .transakcija, .forma .margin_input.placanje_hh .informacijePlacanje .six .ugovarac_osiguranja { min-height: 29em; font-size: 0.93em; padding: 1.5em; }
+
+.gvnPadding { padding-top: 1.2em; }
+/*#tabelaPremija_sablon + .razlika .linija2, .saglasnost + .razlika .linija2, #ContentPlaceHolder1_wuc_placanjeKarticomUspesno_kreiranje_polise_uspesno + .razlika .linija2, #ContentPlaceHolder1_wuc_placanjeUplatnicom_placanje_uplatnicom + .razlika .linija2 { width: 100%; }*/
+.strana_hh #form1 .kartica .row .bgd9, .strana_hh #form1 .row .bgd9 { background-color: #FBAF3F; }
+.strana_hh #form1 .margin_input .paddingLeft { padding-left: 2em!important; padding-right: 2em!important; }
+#date_timepicker_start_hh.danger { border: 1px solid #be001e !important; color: #ff0000;  }
+.tabela_hh tbody .tbl_podaci .drugatd.borrde, .tabela_hh tbody .tbl_podaci .trecatd { width: 30%; }
+.predugovorno { margin-top: 4em; }
+.strana_hh .progress-bar .current .item:before { background-color: #FBAF3F; }
+
+/*HH END*/
+
+
+/*Kontakt strana*/
+.kontakt_strana { background-color: #ececec; padding-bottom: 7em; }
+.kontakt_strana .naslov { text-align: center; } 
+.kontakt_strana .naslov h1 { font-size: 4.571em; text-transform: uppercase; padding-top: 2em; }
+.kontakt_strana .naslov p { font-weight: bold; padding-bottom: 3em; margin-bottom: 3em; font-size: 1.714em; border-bottom: 1px solid #979797; line-height: normal; }
+.kontakt_strana .naslov a { color: #e60000; }
+.linijaMeni { width: 100%; border-top: 5px solid #E20714; }
+.kontLeft { width: 40%; }
+.kontRight { background-color: #f3f3f3; margin-left: 1em;  padding: 2em!important; width: 57%; font-size: 1.143em; line-height: normal; float: right; min-height: 53.5em; }
+.kontRight h3 { font-family: Futura-pt-bold; font-size: 2.143em; padding-bottom: 1em; }
+.kontRight p { margin-bottom: 2.5em; }
+.kontRight label { padding-bottom: 1em; padding-top: 1em; }
+.kontRight .marginBottom1 .input { width: 100%; }
+.kontaktPoruka { min-height: 8.6em; width: 98%; padding: 0.5em; margin-bottom: 1em; }
+.posalji { width: 35%; display: block; text-align: center; margin-top: 1em; text-transform: uppercase; border-radius: 41px; }
+.posalji a { padding: 1.25em 2em; }
+.karticaKontakt { background-color: #fff; margin-bottom: 1em; padding: 2em 1em 2.1em 1.5em; }
+.karticaKontakt h3 { font-size: 2.143em; line-height: 1.03; letter-spacing: 1.5px; color: #4a4a4a; font-family: Futura-pt-bold; padding-bottom: .85em; }
+.karticaKontakt p { margin-bottom: 2em; line-height: 22px; }
+.karticaKontakt label { padding-top: 0.5em; }
+.karticaKontakt label, .karticaKontakt p, .karticaKontakt a { font-size: 1.143em; }
+.karticaKontakt .fa-arrow-right:before {color: #E20714; }
+
+/*Kontakt end*/
+
+
+/*FAQ*/
+.faq_strana { background-color: #ececec; padding-bottom: 7em; color: #4a4a4a; }
+.faq_strana .naslov { text-align: center; } 
+.faq_strana .naslov h1 { font-size: 4.571em; text-transform: uppercase; padding-top: 2em; color: #4a4a4a; }
+.faq_strana .naslov p { font-weight: bold; padding-bottom: 3em; margin-bottom: 3em; font-size: 1.714em; border-bottom: 1px solid #979797; line-height: normal; color: #4a4a4a; }
+.faq_strana .naslov a { color: #e60000; }
+.faq_strana .row h2 { font-size: 2.714em; margin-bottom: 1.5em; color: #4a4a4a; }
+#containerAcord, #containerAcordHH {margin-bottom: 7em; }
+.accordion { width: 100%; background-color: #fff; border: none; outline: none; text-align: left; padding: 1em; font-size: 2.143em; cursor: pointer; transition: background-color 0.2s linear; font-family: Futura-pt-bold; font-weight: bold; padding-left: 1.5em; margin-top: 1em; border-left: 2px solid #5e9ecf; line-height: 1; }
+.accordion:hover {background: rgb(221,221,221); background: -moz-linear-gradient(180deg, rgba(221,221,221,1) 0%, rgba(236,236,236,1) 41%, rgba(255,255,255,1) 98%); background: -webkit-linear-gradient(180deg, rgba(221,221,221,1) 0%, rgba(236,236,236,1) 41%, rgba(255,255,255,1) 98%); background: linear-gradient(180deg, rgba(221,221,221,1) 0%, rgba(236,236,236,1) 41%, rgba(255,255,255,1) 98%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dddddd",endColorstr="#ffffff",GradientType=1); }
+.accordion-content { background-color: #fff;max-height: 0; overflow: hidden; transition: max-height 0.2s ease-in-out; border-left: 2px solid #5e9ecf; }
+.accordion-content p, .accordion-content ol { font-size: 1.143em; padding: 0 3em 1.5em 3em; color: #4a4a4a; }
+.accordion-content ol { padding-bottom: 2em; padding-left: 4em; line-height: 1.5; }
+.accordion-content ol li { list-style-type: decimal; }
+.accordion-content ul { font-size: 1.143em; color: #4a4a4a; }
+
+#Text-84 +  .accordion-content ol { padding-bottom: 0.2em; }
+#Text-84  + .accordion-content ul { padding: 0 2em 2em 5em; }
+#Text-84  + .accordion-content ul li { list-style-type: disc; }
+#containerAcordHH .accordion, #containerAcordHH .accordion-content { border-left: 2px solid #fbaf3f; }
+.entypo-chevron-thin-down:before, .entypo-chevron-thin-up:before { top: 0.3em; font-size: 1.5em; padding-left: 0.2em; }
+.karticaKontakt p a.color_red { font-size: 1em; }
+
+/*FAQ END*/
+
+
+.row.sadrzaj_posta {max-width:inherit;padding:0;min-height:1.6em;}
+
+.margin_input > .columns, .margin_input > .column {
+    margin: 5px 0 !important;
+    line-height: 33px;
+}
+
+.btn.disabled {
+    background-color: #e1e1e1;
+}
+    .btn.disabled:hover {
+        opacity: 1;
+        cursor: not-allowed;
+    }
+
+.progress-bar .item span { font-family: Futura-pt-bold; }
+
+
+/*.kartica h1 { padd }*/
+.headerImage {
+    border-top: 4px solid red;
+    border-bottom: 4px solid #ed1c24;
+    margin-bottom: 7em;
+}
+.headerImage img { width: 100%; }
+
+.progress-bar {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 30px 22px;
+    padding-bottom: 120px;
+}
+
+.progress-bar ol {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: step;
+}
+
+.progress-bar li {
+    display: table-cell;
+    counter-increment: step;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+.progress-bar .cell {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #f6f6f6;
+}
+
+.progress-bar .item {
+    color: #111118;
+    text-decoration: none;
+}
+
+.progress-bar .item:before {
+    content: counter(step);
+    position: absolute;
+    top: -40px;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.progress-bar .complete .item {
+    color: #111118;
+    text-decoration: none;
+
+    
+}
+
+.progress-bar .complete .item:before {
+   font-family:"icomoon";
+    content: "\e906";
+    font-size:2em;
+
+     background: #5296cb;
+     -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+
+.progress-bar .current .item:before, .progress-bar a.item[href]:hover:before {
+    color: #fff;
+    background-color: #1b75bb;
+}
+
+.strana_hh .progress-bar a.item[href]:hover:before {
+    background-color: #FBAF3F;
+}
+
+.progress-bar .item span {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: -50%;
+    margin-left: 44px;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.14285714;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color:#9b9b9b;
+    padding-top: 0.5em;
+}
+
+.progress-bar .current .item span {
+    color: #1b75bb;
+    padding-top: 0.5em;
+}
+
+.progress-bar li.last {
+    width: 64px;
+}
+
+@media only screen and (max-width: 959px) {
+    .progress-bar { 
+        padding-bottom: 80px; 
+    }
+    /*.progress-bar .item:before {
+        top: -35px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }*/
+    /*_:-ms-input-placeholder, :root .progress-bar .complete .item::before {
+        font-size: 35px;
+    }*/
+
+    .progress-bar .item span {
+        display: none;
+    }
+
+    .progress-bar li.last {
+        width: 44px;
+    }
+}
+
+.razlicitoDugme + .sablon_wizard_footer .eight { width: 100%; }
+
+/*koraci*/
+
+/*koraci*/
+.sablon_wizard_footer .row .wizard_footer { padding: 0; }
+.btn_nazad, .btn_napred { border-radius: 30px; width: 282px; font-size: 1.4em; text-align: center; vertical-align: middle;}
+.btn_nazad.thirdbtn { border:none; }
+.btn_nazad.thirdbtn a { border:none; font-weight: bold; }
+.btn_napred a { font-weight: bold; }
+.btn_napred:hover, .btn_nazad:hover { background-color: #4a4a4a; }
+.wizard_footer .btn_nazad, .wizard_footer .btn_napred { line-height: 1.5; }
+
+.lice_podaci a { color: #1b75bb; }
+
+.lice_podaci h1 { padding-bottom: 0.5em; }
+.lice_podaci h1 span { font-family: Futura-pt-book; }
+.forma .margin_input .proveraPodataka {background-color: #1b75bb; padding-top: 1em; padding-bottom: 2em; }
+.razlicitoDugme .forma .margin_input .proveraPodataka .six editbtn { top: -2em; }
+.forma .margin_input .informacijePlacanje { background-color: #1b75bb; margin-bottom: 2em; padding-bottom: 2em; }
+#podaci_o_licu .bgd7 { padding-left: 2em!important; padding-right: 2em!important; }
+
+#Ugovarac, #Ugovarac_hh, #podaci_o_licu, #podaci_o_licu_hh { min-height: 14em; background-color: #ffffff; /*padding: 1em 0.5em 0.5em 1.5em;*/ margin-top:0.5em;}
+.wuc4hh_ .ugovarac_osiguranja{margin-top:0.5em;}
+#podaci_o_licu .eight .marginBottom05 poruka { width: 100%; }
+#form1 .margin_input .paddingLeft { padding-left: 1.5em!important; padding-right: 1.5em!important; }
+.margin_input .bgd7 h2 { font-weight: bold; padding-top: 0.5em; font-family: Arial; }
+.margin_input .eight .entypo-search { margin-top: 0.5em; margin-bottom: 2em; }
+.radio_grupa_fiksna, .vremeOd { padding-top: 1.5em; }
+.vremeOd { padding-bottom: 1.5em; }
+.entypo-search:hover .input_field.ico:before {
+    background-color: #4a4a4a;
+}
+
+
+
+/*forma sa poljima*/
+
+ .lightgray { color: #9a9a9a; }
+
+
+/*.margin_input { padding-top: 2em; }*/
+.margin_input .twelve { padding: 16px;  }
+.margin_input.info-box-active .eight, .margin_input .help-text { background-color: white;    -webkit-transition: background-color 0.2s ease-out; -moz-transition: background-color 0.2s ease-out; -o-transition: background-color 0.2s ease-out;  transition: background-color 0.2s ease-out; }
+.margin_input.info-box-active .eight, .margin_input.info-box-active .help-text { background-color: rgba(228, 228, 228, 1);  }
+.trajanje_input .single.select { height: 3.1em; }
+.select2-container--default .select2-selection--single .select2-selection__rendered { line-height: 1.857em; }
+.select2-container--default .select2-results__option--highlighted[aria-selected] { background-color: #1b75bb; }
+.margin_input span { display:block; font-size:1em; }
+.margin_input .help-content span {display:inline-block;}
+.margin_input span b { font-size:1.14em; color: #4a4a4a; }
+.proveraPodataka span b { color: #ffffff; font-size: 1.715em; }
+.margin_input span i { font-size: 1em; }
+.okvir.blok3.wuc4{padding: 1.5em!important;}
+.okvir.blok3.wuc4 h2{padding:0 0 0 0.3em;}
+.blok3.wuc4 .ws_podnaslov{line-height:initial;padding-left:0.5em;}
+.wuc4  span.ws_podnaslov{color:#ffffff;}
+.wuc4 h2.ws_naslov{font-family: Arial;color:#ffffff;font-weight: bold;line-height: 2em;}
+.wuc4 .proveraPodataka {padding:1em 0.5em 2em 0.5em!important;}
+.wuc5 .ws_naslov {font-size:1.14em;font-weight:bold;}
+.izabraliste_box .okvir {margin:0;}
+.margin_input .input_field.ico input, .margin_input .input_field .select { padding-left: 50px; }
+.margin_input .input_field.ico:before { color:#FFFFFF; background-color: #5e9ecf; top:0; left: 0; font-size: 3.2em; line-height:0.5; width: 40px; text-align:center;box-sizing:border-box; height:44px; border-bottom-left-radius: 10px; border-top-left-radius: 10px; }
+.margin_input .input_field  {  margin:10px 0; }
+.margin_input .input_field input, .margin_input .input_field .select { height:3.1em; width:50%; }
+.margin_input .input_field .select { padding: 0; padding-left: 40px; padding-top: 0.5em; }
+.selectShadow { box-shadow: 2px 0px 2px 0px #cccccc; }
+.margin_input .input_field .select::after { display:none; }
+
+.margin_input infobtn { position:absolute; top:10px; right:5px; width: 38px; height:28px; line-height:0; }
+.margin_input infobtn:hover { cursor:pointer; }
+.margin_input infobtn label:before { font-size:4em; top: -0.45em; line-height: 0; }
+.jmbg { position: relative; }
+infobtn.jmbgInfo { top: 0.5em; right: 0; }
+
+.margin_input .btn { margin: 1em 1em 1em 0;   }
+.margin_input .b_white { background:white; border: 1px solid rgb(51, 51, 51);  }
+.margin_input .btn a { color:inherit;  font-weight:bold; }
+.btn.btn_padd3 a { padding: 1em 3em; }
+.person_counter_all { padding-top: 1em; }
+.person_counter .godineNaziv b { font-size: 1.143em; display: block; height: 1.4em; }
+.person_counter .godineVrednost { font-size: 0.9em; display: block; color: #9a9a9a; height: 3em; line-height: 1.3; padding: 10px 60px 0 0;}
+
+.godineCounter { min-width: 129px; }
+.godineCounter .znakMinus  a > span {font-size:2em; color:#FFF;padding: 0 0.3em 0em 0.3em;margin-bottom: 0.1em;font-weight:bold;}
+.godineCounter .znakPlus  a > span {margin: 0.02em 0;color:#FFF;}
+.margin_input .person_counter { width: 25%; margin: 10px 0; display: inline-block;}
+.margin_input .znakMinus { display: inline-block; background: #919191; color: #FFFFFF; border-bottom-left-radius: 10px; border-top-left-radius: 10px; vertical-align: middle; margin-right: -4px; }
+.margin_input .znakPlus { display: inline-block; background: #919191; padding: 0.01em 0.1em; font-size: 3em; color: #FFFFFF; border-bottom-right-radius: 10px; border-top-right-radius: 10px; vertical-align: middle; margin-left: -4px; }
+.znakMinus:hover, .znakPlus:hover { background-color: #4a4a4a; }
+.margin_input .person_counter input.input { height: 2.22em; min-height: 2.22em !important; text-align:center;padding: 0; margin: 0; background-color: white; color: black; border: none; border-radius: 0; vertical-align: middle; width: 4.4em; }
+.radio span { display:inline-block; }
+
+/*forma sa poljima*/
+
+/*placeholder italic*/
+::-webkit-input-placeholder {
+   font-style: italic;
+   font-size: 0.8em;
+}
+:-moz-placeholder {
+   font-style: italic;  
+   font-size: 0.8em;
+}
+::-moz-placeholder {
+   font-style: italic;
+   font-size: 0.8em;  
+}
+:-ms-input-placeholder {  
+   font-style: italic;
+   font-size: 1.143em; 
+}
+/*placeholder italic*/
+
+/*input type nummber ukidanje strelica*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*input type nummber ukidanje strelica*/
+
+/*helptext*/
+.margin_input .help-text { display:none; }
+.margin_input.info-box-active .help-text { display:block; background-color: #ed1c24; }
+.help-content p, .help-content ul li { color: #ffffff; }
+.help-content ul { padding-left: 0.8em; }
+.help-content ul li  { list-style: disc; line-height: 1.5; padding-bottom: 0.5em; }
+.jmbg-stranac-text { width: 100%; padding: 0.5em 2em 1em; margin-top: 1em; background-color: #ed1c24; color: #fff; box-sizing: border-box;}
+
+/*@media only screen and (min-width: 960px){*/
+.margin_input .help-text { width: 260px; padding:12px; margin-left:28px; }
+.margin_input.info-box-active .help-text {  position:absolute; right: -305px; top:0;  }
+.margin_input.info-box-active .help-text-page3 { position: relative; right: 0; margin: 0; width: 98%!important; margin-top: 1.2em; }
+.help-text-page3:before { display: none!important; }
+
+    .help-text:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        margin-left:-18px;
+        left: 0;
+        height: 0;
+        width: 0;
+        border-bottom: 18px solid transparent;
+        border-right: 18px solid #ed1c24;
+        outline: 1px solid transparent;
+    }
+
+    .help-text-page3:after {
+        content: '';
+        position: absolute;
+        top: -1.2em;
+        right: 0;
+        height: 0;
+        width: 0;
+        border-top: 18px solid transparent;
+        border-right: 18px solid #ed1c24;
+    }
+
+/*}*/
+
+
+
+/*helptext*/
+
+.btnHover:hover {  opacity:0.8 }
+
+.izabraliste_box { /*box-sizing:border-box;*/ margin-bottom: 4em; }
+.izabraliste_box h3 { color: #4a4a4a; font-size: 1.428em; font-weight: bold; }
+.izabraliste_box_label hr { margin-top:1.5em; margin-bottom:1.5em; }
+.izabraliste_box_label .block { line-height: 2em; }
+.izabraliste_box_label .izabraliste_label { color:rgb(94, 94, 94); /*margin-right:1.5em; min-width: 120px;*/ text-align: right; }
+
+table.tbl_paketi { border-collapse: collapse; }
+table.tbl_paketi th, table.tbl_paketi td { border: 1px solid #979797;  }
+table.tbl_paketi .entypo-check:before { position: relative; font-weight:normal; line-height:0; font-size: 3em;  color: #7ed321; left: 0; }
+
+.tbl_paketi { width:100%; }
+.prvatd { width:40%; }
+.drugatd, .trecatd { /*width:30%;*/ text-align:center; vertical-align:middle; }
+.tabela_hh .prvatd { width: 30%; }
+.inner_box_hh + #tabelaPaket .tabelaUsluge .tbl_paketi tbody .tbl_podaci .drugatd, .inner_box_hh + #tabelaPaket .tabelaUsluge .tbl_paketi tbody .tbl_podaci .trecatd { width: 30%; }
+.putno #form1 .razlicitoDugme .row .tabelaUsluge .tbl_paketi tbody .tbl_podaci .prvatd { width: 60.5%; }
+.putno #form1 .razlicitoDugme .row .tabelaUsluge .tbl_paketi tbody .tbl_podaci .drugatd, .putno #form1 .razlicitoDugme .row .tabelaUsluge .tbl_paketi tbody .tbl_podaci .trecatd { width: 19%; }
+
+
+
+
+/*[vrstaPokrica="1"] .drugatd, [vrstaPokrica="2"] .trecatd { background-color:#ededed;  }
+[vrstaPokrica="1"] .drugatd label, [vrstaPokrica="2"] .trecatd label {color: rgb(94, 94, 94); font-weight:bold; }
+[vrstaPokrica="1"] .drugatd span:before, [vrstaPokrica="2"] .trecatd span:before { color:#169a98; }
+[vrstaPokrica="1"] .drugatd .foot_premija label, [vrstaPokrica="2"] .trecatd .foot_premija label { color:#333333; }*/
+.vrstaPokrica1 .drugatd, .vrstaPokrica2 .trecatd { background-color:#f5f5f5; }
+.vrstaPokrica1 .drugatd label, .vrstaPokrica2 .trecatd label {color: rgb(94, 94, 94); font-weight:bold; }
+/*.vrstaPokrica1 .drugatd span:before, .vrstaPokrica2 .trecatd span:before { color:#7ed321; }*/
+.vrstaPokrica1 .drugatd .foot_premija label, .vrstaPokrica2 .trecatd .foot_premija label { color:#ffffff; }
+.tbl_paketi th, .tbl_paketi td { padding:10px; }
+
+table.tbl_paketi .bgd8 { background-color:#f2f2f2; }
+.tbl_usluge { background-color:#f2f2f2; }
+.tbl_usluge .prvatd { border-right:none; font-weight:bold; }
+.tbl_usluge .drugatd { border-left: none; border-right:none; background-color:#f2f2f2; }
+.tbl_usluge .trecatd { border-left:none;  background-color:#ffffff;  }
+
+table.tbl_paketi th, .tbl_naslov th { border:none ; background-color:#e2e2e2; border: 1px solid #979797; }
+.tbl_naslov th.drugath, .tbl_naslov th.trecath { border:1px solid #979797; background-color:#e2e2e2; color:#9b9b9b; }
+table.tbl_paketi th h3 { color:#9b9b9b; font-weight:bold; }
+
+.tabelaUsluge { padding: 0!important; }
+.tbl_footer td { padding-top: 1em; padding-bottom:1em; font-weight:bold; font-size: 1.2em; background-color:#1b75bb!important; color: #ffffff; }
+table.tbl_paketi  .tbl_dugme td  { border:none; } 
+table.tbl_paketi .tbl_dugme .trecatd .odabrati2 { width: 80.9%; }
+table.tbl_paketi  .tbl_dugme td.drugatd,table.tbl_paketi  .tbl_dugme td.trecatd  { border: 1px solid #d7d7d7; } 
+table.tbl_paketi  .tbl_dugme td.drugatd span,table.tbl_paketi  .tbl_dugme td.trecatd span { width:92.1%; padding:15px 0; color:white; font-weight:bold; border-radius:5px; background-color:#949494; cursor:pointer; } 
+table.tbl_paketi.vrstaPokrica1 .tbl_dugme td.drugatd span, table.tbl_paketi.vrstaPokrica2 .tbl_dugme td.trecatd span, table.tbl_paketi.vrstaPokrica1 .tbl_naslov .drugath, table.tbl_paketi.vrstaPokrica2 .tbl_naslov .trecath { background-color:#1b75bb; }
+.tbl_zaglavlje .prvatd, .tbl_zaglavlje .drugatd, .tbl_zaglavlje .trecatd { background-color: #f2f2f2; }
+.vrstaPokrica1 .tbl_zaglavlje .drugatd label, .vrstaPokrica2 .tbl_zaglavlje .trecatd label { font-weight:bold; }
+.forma .ugovarac_osiguranja { background-color:#f2f2f2; padding:20px; box-sizing:border-box;  min-height: 180px; }
+.forma .ugovarac_osiguranja span,.forma .ugovarac_osiguranja label { display:inline-block; line-height:1.3;}
+
+.forma .ugovarac_osiguranja .block { line-height:1; word-break: break-word; }
+.forma .ugovarac_osiguranja .ugovarac_osiguranja_I_label { text-align:left; padding-bottom: 0.3em; }
+.forma .ugovarac_osiguranja .ugovarac_osiguranja_II_label { font-weight:bold; box-sizing:border-box; }
+.forma .ugovarac_osiguranja .nine { width: 71.999%; }
+
+.forma.kartica .ugovarac_osiguranja { background-color:#ffffff; padding:1.5em; box-sizing:border-box; min-height:6em; color: #4a4a4a; }
+
+.kreiranje_polise_neuspesno h2, #slanje_mejla_uspesno h2, .kreiranje_polise_neuspesno h2 { text-transform: uppercase; font-size: 1.2em; }
+.placanje_pouzecem h2 { text-transform: uppercase; }
+
+.ostali_osiguranici_table { width: 100%; padding: 2em; box-sizing: border-box; background-color: #1B75BB; padding-top: 1em; }
+.ostali_osiguranici_table span b { color: #ffffff; font-size: 1.714em; }
+.ostali_osiguranici_table .table { border-collapse:collapse; display:table; width: 100%; background-color:#ffffff; }
+.ostali_osiguranici_table .os_os_tr { display:table-row; width:100%; }
+.ostali_osiguranici_table .td { display:table-cell; vertical-align:middle; text-align:center }
+.ostali_osiguranici_table .os_os_rb { width: 5%; }
+.ostali_osiguranici_table .os_os_ime, .ostali_osiguranici_table .os_os_jmbg, .ostali_osiguranici_table .os_os_telefon { width: 20%; }
+.ostali_osiguranici_table .os_os_prezime { width: 25%; }
+.ostali_osiguranici_table .os_os_pasos { width: 10%; }
+.ostali_osiguranici_table .tblData { font-weight: bold; }
+.ostali_osiguranici_table span { padding-bottom: 0.5em; }
+ostali_osiguranici_table_mesto { margin: 0 -0.5em!important; }
+ 
+.margin_input .btn.ico { /*padding-left: 60px; height:55px;*/
+    box-sizing: border-box;
+}
+.margin_input .btn.ico a { font-size: 1em; font-weight: normal; text-align:center; box-sizing:border-box; padding: 0.5em; }
+/*.margin_input .btn.ico:before { left:-3px;  top:0;  font-size: 4em; line-height:10px; width: 60px; text-align:center;box-sizing:border-box }*/
+
+.margin_input .btn.ico.entypo-mail a { padding: 0.7em; padding-left: 2.2em; font-size: 1.429em; }
+.margin_input .btn.ico.entypo-mail:before { left: 12px; top: -5.5px; line-height: 0.7em; font-size: 3.5em; }
+
+.forma .margin_input .entypo-mail { width: 39%; }
+
+.forma .margin_input .entypo-mail.disabled { background-color: #979797; width: 45%; }
+.dbf_grupa .marginBottom2 .input { width: 100%; padding-right: 0.6em;  }
+ .dbf_grupa .ulicaInput, .dbf_grupa .bUlica, #nacinIsporuke .invisible .ulicaInput, #nacinIsporuke .invisible .bUlica { width: 70%; }
+.redBr { font-weight: bold;  padding: 1em 0.5em; padding-right: 0; }
+
+.ostaliOsiguranici .osiguranikIme { width: 15%; }
+.ostaliOsiguranici .osiguranikPrezime, .ostaliOsiguranici .osiguranikTelefon { width: 19%; }
+.ostaliOsiguranici .osiguranikPasos, .ostaliOsiguranici .osiguranikJmbg { width: 21%; }
+.ostaliOsiguranici .ostaliOsiguraniciInput poruka  { width: 100%; }
+.ostaliOsiguranici .ostaliOsiguraniciInput mark { top: 15%; }
+
+/*dugme saglasan sceleton prepisan za apple style button*/
+.margin_input .forma_cehk label.toggle { position: relative; cursor: pointer; display: inline-block; min-height: 3em; box-sizing: border-box; }
+.margin_input .forma_cehk label.toggle span { position: relative; display: inline-block; width: 1.5em; height: 1.5em; background: white; border-radius: 3px; top: -0.1em; left: 0; margin: 0 0.25em; overflow: hidden; }
+.margin_input .forma_cehk label.toggle.checked span:before { display: block;font-family: 'entypo'; position: absolute; font-size: 3em; left: 0.03em; line-height: 0; content: ""; color: #ffffff; z-index: 100; font-weight: normal; transition: opacity 0.5s;  content: "\2713"; opacity: 1; }
+/*dugme saglasan sceleton prepisan za apple style button*/
+
+/*.margin_input .checkbox span, .margin_input .forma_cehk label.toggle span { height:24px; width:24px; background-color:inherit; border:3px solid #787878; border-radius: 5px; font-size:4.5em;  }
+.margin_input .checkbox span:before, .margin_input .forma_cehk label.toggle.checked span:before { top:-3px; left:-2px; font-size:1em; color:#6b6b6b; text-shadow: 2px 1px 0px white; line-height: 0; }*/
+
+.margin_input .forma_cehk { position:relative; }
+.margin_input .forma_cehk .checkbox, .margin_input .forma_cehk label.toggle { position:absolute; top: 22px; left: 1em}
+.margin_input .forma_cehk p { padding: 1.5em 5em; margin:0; line-height:1.2; }
+
+.margin_input h1 { padding-bottom: 0.5em; }
+.margin_input .chk_holder { margin: 1em 0; }
+
+/*placanje uplatnicom*/
+.uplatnica { width: 650px; height: 320px; border:1px solid #cbcbcb; }
+.uplatnica .upl_naslov { padding: 10px 20px; }
+.uplatnica .upl_levo { width: 42%; border-right:1px solid; padding:0 20px; box-sizing:border-box; display:inline-block; }
+.uplatnica  label { font-size:0.8em; line-height: 2; display:block; }
+.uplatnica  span label { display:inline-block; line-height:1; }
+.uplatnica span[contenteditable="true"] { border:1px solid; margin-bottom:0.5em; line-height:1.2; min-height:40px; padding: 0px 5px; }
+.uplatnica .upl_desno { width: 56%; display:inline-block; padding:10px 20px 0; box-sizing:border-box; }
+.uplatnica .upl_desno span[contenteditable] { height:14px; min-height:14px; line-height: 1; padding: 4px; }
+.uplatnica .upl_desno .upl_sif_pla, .uplatnica .upl_desno .upl_valuta { width: 20%; display:inline-block; padding-right:10px; box-sizing:border-box;}
+.uplatnica .upl_desno .upl_iznos { width: 57%; display:inline-block; box-sizing:border-box;}
+.uplatnica .upl_desno .upl_model { display:inline-block; width:15%; margin-right:7% }
+.uplatnica .upl_desno .upl_poziv_na_broj { display:inline-block; width: 70%;  }
+.uplatnica .upl_linija { margin: 2em 1.5em 0;  border-top: 1px solid; }
+.uplatnica .upl_linija.upl_pecat { margin-top:1em; }
+/*placanje uplatnicom*/
+
+.forma.kartica .ugovarac_osiguranja ul li { margin-left:1em; list-style:disc; line-height:1.2; }
+/*.forma a { text-decoration:underline; }*/
+.forma a.decoration_none { text-decoration:none;}
+
+.radio_grupa { padding-top: 1.5em; }
+.margin_input label.radio { display:block; text-align:left; min-height:1em; padding: 0.3em 0; line-height:1.2; }
+.margin_input label.radio_btn { display:inline-block;  width: 22.5%; text-align:center; color: #565656; padding:1em; font-weight: bold; background-color:white; -webkit-transition: background-color 0.2s ease-out; -moz-transition: background-color 0.2s ease-out; -o-transition: background-color 0.2s ease-out; transition: background-color 0.2s ease-out; }
+.margin_input label.radio_btn:hover { background-color: #4a4a4a; color: #ffffff; }
+.margin_input label.radio_btn > span { display:none; }
+.margin_input label.radio_btn.checked{  background-color: #1b75bb; color:white; box-sizing:border-box; }
+.margin_input .radio_grupa.row.danger label.radio_btn{   border: 1px solid #E20714; }
+
+
+.select2-dropdown { border: none; }
+
+/*search*/
+.select2-container--open .select2-dropdown--below {box-shadow: 1px 1px 2px 1px #cccccc; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0; margin-top: 0.6em;}
+.select2-container--open .select2-dropdown--above {box-shadow: 1px 1px 2px 1px #cccccc; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0; margin-top: -0.6em; } 
+.putnok3 .select2-container--open .select2-dropdown--below, .hhk3 .select2-container--open .select2-dropdown--below {box-shadow: 1px 1px 2px 1px #cccccc; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0; margin-top: 0.6em;}
+.putnok3 .select2-container--open .select2-dropdown--above, .hhk3 .select2-container--open .select2-dropdown--above {box-shadow: 1px 1px 2px 1px #cccccc; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0; margin-top: -0.6em;} 
+
+/*period*/
+.select_period .select2-dropdown { left: -9px; top: -1px; }
+.select_period .select2-dropdown--below { width: 257px!important; }
+
+
+.margin_input .kucni_br { width: 28%; float: right; }
+.lice_podaci .input_field { margin:0; }
+
+.doc_download { border:3px solid #138a88; box-sizing:border-box; width:360px; }
+.btn.doc_download.ico > a { padding: 1.2em 2em; line-height:1; text-decoration:none }
+
+/*.btn.doc_download.ico:before {line-height:15px; }*/
+.btn.bgd8.btn_hover:hover { background-color: #44aeac; }
+
+#ContentPlaceHolder1_wuc_putno1_Div1, #ContentPlaceHolder1_wuc_putno1_datumi_do_multi, .trajanjeDana { display: inline-block; }
+#ContentPlaceHolder1_wuc_putno1_Div1 { width: 40%; }
+#ContentPlaceHolder1_wuc_putno1_datumi_do_multi { width: 57%; float: right; }
+#ContentPlaceHolder1_wuc_putno1_datumi_do_multi .vremeDo { width: 70.2%; margin: 0; display: inline-block; }
+.trajanjeDana { width: 25%; float: right; }
+.datumi { padding-bottom: 1.5em; }
+#ContentPlaceHolder1_wuc_placanjeKarticomUspesno_slanje_mejla_uspesno { display: inline-block; }
+#ContentPlaceHolder1_wuc_placanjeKarticomUspesno_kreiranje_polise_uspesno { display: inline-block; float: right; }
+
+.vremeDo label, .trajanjeDana label { font-weight: bold; }
+.vremeOd input.input { border: none; background-color: #ffffff; }
+.vremeOd .btn a { border-radius:8px; padding: 0.5em 2em; text-align:center; font-weight:normal; }
+#date_timepicker_start_mask, #date_timepicker_end_mask { height:100%; width:100%; }
+.icomoon-calendar:before { right: 0.45em; top: 0.5em; }
+
+#date_timepicker_start, #date_timepicker_end { border-bottom-left-radius: 10px; border-top-left-radius: 10px; }
+.datum_kraja_ico { left: 7px; font-size: 1.5em; padding-top: 7px; color: #FFFFFF; background-color: #5e9ecf; width: 40px; text-align: center; box-sizing: border-box; height: 46px; border-bottom-left-radius: 10px; border-top-left-radius: 10px; }
+.vremeDo:hover .datum_kraja_ico { background-color: #4a4a4a; }
+#trajanje_dana { width: 100%; }
+.broj_dana .columns poruka { width: 100%; }
+
+.xdsoft_datetimepicker, .xdsoft_noselect, .xdsoft_ { left: 230px; padding: 1em; padding-left: 0; } 
+.xdsoft_datetimepicker * { padding: 5px; padding-top: 0; }
+.xdsoft_today_button { visibility: hidden!important; }
+.xdsoft_datetimepicker .xdsoft_datepicker { width: 23em; }
+.xdsoft_datetimepicker .xdsoft_month { width: 5.5em; text-align: right; font-size: 1.5em; }
+.xdsoft_datetimepicker .xdsoft_year { width: 60px; text-align: left; font-size: 1.5em; }
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today { font-weight: bold; }
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current { background-color: #1b75bb; }
+.xdsoft_datetimepicker .xdsoft_calendar td, .xdsoft_datetimepicker .xdsoft_calendar th { border: none; background-color: #ffffff; text-align: center; vertical-align: middle; font-size: 1.2em; padding: 5px; }
+.xdsoft_datetimepicker .xdsoft_calendar td:hover, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div:hover { background: #E20714!important; }
+
+.margin_input .btn.datum_btn > a {
+    background-color: white;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+.margin_input .btn.datum_btn.pressed > a { background-color: #1b75bb; color: white; }
+
+editbtn { position:absolute; right:0.5em; top: -1em; line-height:1; }
+.razlicitoDugme .relative editbtn{right:1em;}
+editbtn > a {
+    text-decoration: none !important;
+    font-size: 1.5em;
+    color: #666;
+}
+
+footer { padding: 2em 0 1em; box-sizing:border-box; border-top: 5px solid #E20714; text-align: center; background: #ECECEC; }
+footer h2 { font-family: Futura-pt-bold; display: inline-block; padding: 1.5em 0 1em 0; font-size: 2.3em; font-weight: bold; color: #E20714; width: 89%; }
+footer a { font-size: 1.2em; }
+footer .info_txt { width: 100%; }
+.footer_link { width: 19%; text-align: left; font-size: 0.857em; }
+.footer_link li a:hover { color: #ED1C24; }
+.footer_link ul li, .footer_link ul li a { color: #878787; line-height: 1.6; }
+.social_list ul li:first-child { font-size: 1.2em; padding-bottom: 0.5em; }
+.margin_input .forma_cehk label.checked span { overflow: visible; top: -0.1em; background-color: #1b75bb; border-radius: 6px; }
+.infos { padding-top: 2.5em; margin-bottom: 5em; font-size:0.857em; color: #878787; line-height: 1.6; }
+.ikonice { position: absolute; right: 1%; top: 50%; }
+.ikonice a:hover .fa-chevron-up:before, .ikonice a:hover .fa-share:before, .ikonice a:hover .fa-facebook-f:before, .ikonice a:hover .fa-linkedin-in:before { background-color: #FFFFFF; color: #ED1C24; }
+.ikonice a:first-child i { margin-right: 0.5em; }
+.ikonice a .fa-chevron-up:before { padding: 0.5em 0.55em; }
+.fa-chevron-up:before, .fa-share:before, .ikonice a .fa-facebook-f:before, .ikonice a .fa-linkedin-in:before { border: 1px solid #ED1C24; border-radius: 30px; padding: 0.5em; background-color: #ED1C24; color: white; }
+.ikonice a .fa-facebook-f:before, .ikonice a .fa-linkedin-in:before { font-size: 1em; padding: 0.5em; margin-right: 0; }
+.ikonice a .fa-facebook-f:before { padding: 0.5em 0.65em; }
+.ikonice a .fa-linkedin-in:before { padding: 0.5em 0.55em; }
+.fa-facebook-f:before, .fa-linkedin-in:before, .fa-instagram:before { font-size: 0.8em; margin-right: 0.5em; border-radius: 10px; padding: 0.3em; padding-right:0.35em; padding-left: 0.33em; color: #FFFFFF; }
+.fa-facebook-f:before { background: #4166B7; padding: 0.3em 0.4em; padding-right: 0.5em; }
+.fa-linkedin-in:before { background: #0079B7; }
+.fa-instagram:before { background: #C03785; }
+
+
+ 
+.redhh0, .drugatd { padding: 0.5em; }
+
+
+.hamburger {
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 1em;
+}
+
+
+.w25 .datum_btn { width: 100%; }
+.vremeOd .btn .btn_datum_unapred { font-weight: bold; }
+.btn_datum_unapred b { font-weight: normal; }
+
+.okvir { /*height: 18em;*/ padding: 1.5em 1em; margin: 0 -0.5em; }
+.putno #form1 .razlicitoDugme .izabraliste_box .okvir { margin: 0; }
+
+.okvir h2 { color: #ffffff; padding-bottom: 0.5em; font-weight: bold; padding-left: 0.3em;font-family: 'Arial';}
+.okvir .two { width: 17.666%; }
+.okvir .five { width: 42%; float: right; }
+.okvir .seven { width: 60.9%; float: right; }
+.row > div.columns.okvir{padding:1.5em;}
+.izabraliste_box .okvir .txtcenter label { color: #4a4a4a; padding-bottom: 0.2em; }
+.izabraliste_box .okvir .txtcenter { background-color: #ffffff; margin: 0.5em; padding: 1.87em; }
+.izabraliste_box .okvir editbtn { right: 0.5em; top: -0.8em; }
+.izabraliste_box .okvir editbtn a { font-size: 1.2em; }
+.margin_input .input_field .input_destination { width: 570px; }
+.margin_input#podaci_o_licu .input_field .input_destination, .margin_input#Ugovarac .input_field .input_destination, .hhk3 .margin_input .input_field .input_destination { width: 100%; }
+.trajanje_input .input_period { width: 257px; border-bottom-left-radius: 0; border-top-left-radius: 0; }
+.data_hh .eight #gco .input_naslov {line-height: 16px;}
+
+@-moz-document url-prefix() {
+    .counter h2 { font-size: 2.3em; }
+}
+
+/*responsive*/
+
+/*Android*/
+   .android .margin_input .input_field.ico:before { line-height: 1.2; }
+   .android .input_field.ico:before { line-height: 1; }
+   .android .radio.checked span:before, .android .margin_input .eight infobtn label:before { line-height: 0.5; }
+   .android .margin_input .eight infobtn { top: 1.7em; }
+   .android .margin_input .btn.ico.entypo-mail:before { line-height: 1.2; }
+   .android .margin_input .forma_cehk label.toggle.checked span:before { line-height: 0.5; }
+   .android .ikonice { top: 10%; }
+   .android table.tbl_paketi .entypo-check:before { left: -0.3em; top: 0.2em; }
+   /*.android .proveraPodataka editbtn { top: -20.5em; }*/
+
+
+   /*Mac Chrome*/
+   .mac-os .margin_input .eight infobtn label:before { top: -0.2em; }
+   .mac-os .margin_input .twelve infobtn label:before { top: -0.2em; }
+   .mac-os .margin_input .input_field.ico:before { line-height: 1; }
+   .mac-os .radio.checked span:before { padding: 10% 16%; top: 40%; }
+   .mac-os table.tbl_paketi .entypo-check:before { line-height: 0.4; }
+   .mac-os .margin_input .btn.ico.entypo-mail:before { top: 0.08em; }
+   .mac-os .margin_input .forma_cehk label.toggle.checked span:before { line-height: 0.5; }
+   .mac-os .entypo-chevron-thin-down::before, .mac-os .entypo-chevron-thin-up::before { top: 22px; }
+
+            /*IE*/
+/*.bx-wrapper .bx-viewport { background-color: #333333 !important; }*/
+_:-ms-input-placeholder, :root .bx-viewport { height: 580px; }
+_:-ms-input-placeholder, :root .margin_input .eight infobtn label::before { font-size: 0.6em; left: -0.2em; top: -0.4em; line-height: 0; }
+_:-ms-input-placeholder, :root .putnok3 .margin_input infobtn label::before { font-size: 0.6em }
+_:-ms-input-placeholder, :root table.tbl_paketi .entypo-check::before { font-size: 0.5em; top: -0.1em; }
+_:-ms-input-placeholder, :root .marginBottom4 .entypo-mail::before { font-size: 0.5em; }                       
+_:-ms-input-placeholder, :root .person_counter input { padding: 0em !important; }
+_:-ms-input-placeholder, :root .margin_input .input_field.ico::before { font-size: 0.17em; line-height: 0.3; }
+_:-ms-input-placeholder, :root .btn_nazad.entypo-chevron-thin-left::before { left: 0em; }
+_:-ms-input-placeholder, :root .wizard_footer .entypo-chevron-thin-left a { padding-left: 4em; }
+_:-ms-input-placeholder, :root .btn_nazad.thirdbtn { margin-left: 0; }
+/*_:-ms-input-placeholder, :root .margin_input .forma_cehk label.checked span { top: -0.2em; }*/
+_:-ms-input-placeholder, :root .margin_input .forma_cehk label.toggle.checked span:before { font-size: 1em; line-height: 0; }
+_:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail { width: 41%; }
+_:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail.disabled { width: 50%; }
+_:-ms-input-placeholder, :root .margin_input .btn.ico a { line-height: 1; }
+_:-ms-input-placeholder, :root .fa-facebook-f:before, _:-ms-input-placeholder, :root .fa-linkedin-in:before, _:-ms-input-placeholder, :root .fa-instagram:before { padding: 0.3em 0.35em; }
+_:-ms-input-placeholder, :root .fa-facebook-f:before { padding: 0.3em 0.5em; }
+_:-ms-input-placeholder, :root .progress-bar .item::before { top:  -40px; width: 85px; height: 85px; line-height: 85px; }
+_:-ms-input-placeholder, :root .progress-bar .complete .item::before { font-size: 0.6em; }
+_:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail::before { line-height: 0.2em; top: -3px; left: 10px; font-size: 0.8em; }
+_:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail a { padding-left: 3em; }
+_:-ms-input-placeholder, :root #date_timepicker_start { height: 44px; }
+_:-ms-input-placeholder, :root .radio.checked span:before { padding: 10% 10%; line-height: 0; }
+_:-ms-input-placeholder, :root .yearLater { margin-bottom: 1em; }
+_:-ms-input-placeholder, :root .osnovni.entypo-home::before, _:-ms-input-placeholder, :root .standardni.entypo-home::before, _:-ms-input-placeholder, :root .plus.entypo-home::before { right: 5%; }
+_:-ms-input-placeholder, :root .strana_hh #form1 .slider .pocet_na_slider .bx-wrapper .bx-viewport { height: 535px!important; }
+_:-ms-input-placeholder, :root .strana_hh #form1 .slider .pocet_na_slider .bx-wrapper .bx-viewport .bxslider li .slajder_info_beli { bottom: 40%; }
+_:-ms-input-placeholder, :root .entypo-chevron-thin-down::before, _:-ms-input-placeholder, :root .entypo-chevron-thin-up::before { top: 17px; }
+/*_:-ms-input-placeholder, :root #date_timepicker_start_hh { height: 4em; }*/
+_:-ms-input-placeholder, :root .data_hh .eight .input_hh .tabMoveInitialized { height: 3.18em; }
+_:-ms-input-placeholder, :root .sume .rangeNumber { display: inline-block; position: relative;  float: right; text-align: right; height: 2em; font-size: 1.5em; padding: 0; min-height: 0; margin-top: 0; line-height: 1; width: 9.3em; background-color: transparent; }
+_:-ms-input-placeholder, :root #date_timepicker_start_hh, #date_timepicker_end_hh { padding-left: 2.5em!important; }
+_:-ms-input-placeholder, :root .row .eight .ico.entypo-search:before { font-size: 3em; line-height: 0.5; }
+_:-ms-input-placeholder, :root .putnok3 .margin_input .input_field.entypo-search::before { font-size: 4em; }
+_:-ms-input-placeholder, :root .strana_hh #form1 .row .eight .destination_hh .ico.entypo-search:before { font-size: 0.33em; }
+_:-ms-input-placeholder, :root .forma .margin_input.placanje_hh .informacijePlacanje { min-height: 32em; }
+_:-ms-input-placeholder, :root .forma .margin_input.placanje_hh .informacijePlacanje .six .transakcija, _:-ms-input-placeholder, :root .forma .margin_input.placanje_hh .informacijePlacanje .six .ugovarac_osiguranja { min-height: 29em; }
+_:-ms-input-placeholder, :root .data_hh .eight .destination_hh .input_destination_hh { height: 52px; }
+_:-ms-input-placeholder, :root .pocet_na_slider .entypo-chevron-thin-left::before, _:-ms-input-placeholder, :root .pocet_na_slider .entypo-chevron-thin-right::before { font-size: 0.8em; }
+_:-ms-input-placeholder, :root .bx-wrapper .bx-next { right: 1%!important; }
+_:-ms-input-placeholder, :root .bx-wrapper .bx-controls-direction a { top: 47%!important; width: 46px!important; height: 46px!important; }
+_:-ms-input-placeholder, :root div.btn.six.ico.icomoon-file-pdf-o::before { right: 12.6em; }
+.tabMoveInitialized::-ms-clear { width: 0; height: 0; }
+
+/*IE 9
+@media all and (min-width:0\0) and (min-resolution:.001dpcm)
+{
+
+}
+*/
+
+.ie10 .four.osnPaket, .ie10 .four.staPaket, .ie10 .four.pluPaket, .ie9 .four.osnPaket, .ie9 .four.staPaket, .ie9 .four.pluPaket    { display: inline-block; width: 31.33%; margin-bottom: 1em; }
+
+@media screen and (max-width: 1050px) {
+    .ie10 .four.osnPaket, .ie10 .four.staPaket, .ie10 .four.pluPaket   { display: inline-block; width: 31%; margin-bottom: 1em; }
+}
+
+@media screen and (max-width: 1170px) {
+    .ie9 .four.osnPaket, .ie9 .four.staPaket, .ie9 .four.pluPaket    { display: inline-block; width: 30.33%; margin-bottom: 1em; }
+}
+
+
+/*Firefox*/
+    .firefox .entypo-chevron-thin-down::before, .firefox .entypo-chevron-thin-up::before { top: 13px; }
+    .firefox #form1 .inner_box_hh .four .entypo-home:before { font-size: 5.5em; right: 10%; }
+    .firefox #form1 .forma .margin_input.placanje_hh .informacijePlacanje { min-height: 32em; }
+    .firefox #form1 .forma .margin_input.placanje_hh .informacijePlacanje .six .transakcija, .firefox #form1 .forma .margin_input.placanje_hh .informacijePlacanje .six .ugovarac_osiguranja { min-height: 29em; }
+    _::-webkit-full-page-media, div.btn.six.ico.icomoon-file-pdf-o::before { font-size: 2.8em; right: 8.6em; }
+    
+
+    /*safari*/ 
+@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) {
+    .mac-os .counter h2 { font-size: 2.3em;}
+    .mac-os .entypo-search::before {padding-top: 12px; }
+    .mac-os label { /*padding-top: 0.7em;*/ padding-right: 0.5em; }
+    .mac-os .trajanjeDana label{padding-right: 0;}
+    .mac-os .btn_nazad.entypo-chevron-thin-left::before { line-height: 42px; }
+    .mac-os .margin_input .input_field.entypo-search:before { line-height: 0.5em; }
+    .mac-os .w25 .btn { width: 100%; }
+    .mac-os table.tbl_paketi .entypo-check:before { line-height: 15px; }
+    .mac-os .radio.checked span:before { line-height: 0; top: 10px; }
+    .mac-os .margin_input .btn.ico a { line-height: 1; } 
+    /*.mac-os .margin_input .btn.ico.entypo-mail:before { line-height: 1.1em; }*/
+    .mac-os .margin_input .forma_cehk label.toggle span { top: -0.5em; }
+    .mac-os .margin_input .forma_cehk .checkbox, .mac-os .margin_input .forma_cehk label.toggle { top: 20px; }
+    .mac-os .margin_input .forma_cehk label.toggle.checked span:before { top: -1.44em; left: -0.04em; line-height: 3em; }
+    /*.mac-os .okvir { height: 24em; }*/
+    .mac-os .error { top: 0.5em!important; }
+    .mac-os .margin_input .eight infobtn { top: 1.5em; }
+    .mac-os .entypo-circled-help:before { top: 0.2em; }
+    .mac-os .margin_input .eight infobtn label:before { top: -0.4em; }
+    .mac-os .margin_input .twelve infobtn label:before { top: -0.2em; }
+    .mac-os div.btn.six.ico.icomoon-file-pdf-o::before { font-size: 2em; right: 8em; }
+    .mac-os .sume .rangeNumber { height:1.5em;}
+    .mac-os .radio.checked span:before { padding: 5% 15%; }
+    /*.mac-os .margin_input.info-box-active .entypo-circled-help:before { top: 0; }*/
+    .mac-os .select:after, .mac-os [email]:after { top: -1em; }
+    .mac-os .margin_input .forma_cehk label.toggle.checked span:before { top: -1.25em; left: 0; }
+    .mac-os .fa-facebook-f:before { padding: 0.34em 0.61em; }
+    .mac-os .entypo-chevron-thin-down::before, .mac-os .entypo-chevron-thin-up::before { top: 22px; }
+}}
+
+@media screen and (max-width: 1700px) {
+    .tekstSlide { top: 18%; }
+}
+
+
+@media screen and (max-width: 1550px) {
+    .tekstSlide { top: 10%; width: 70%; left: 14%; }
+    .slajder_info_beli h3 { font-size: 3.5em; }
+    
+}
+
+@media screen and (max-width: 1360px) {
+    .tekstSlide { left: 0; width: 100%; }
+    .tekstSlide h3 { font-size: 4em; }
+    .tekstSlide p { padding-bottom: 1em; }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .row { padding-left: 0.5em; padding-right: 0.5em; }
+    .faq_strana .row h2{padding-left:0.5em;}
+    .row.accordion{padding-left:1.5em;}
+    .vremeOd .btn a { padding: 0.5em; box-sizing: border-box; }
+    .slajder_info_beli h3 { font-size: 2.5em; padding-bottom: 0.5em; }
+    .slajder_info_beli p { font-size: 1em; }
+    .meni_main .menu ul#main_menu li a {font-size: 0.86em;}
+    ul#main_menu li { padding-left: 0.5em; }   
+    ul#main_menu li:nth-child(3) {padding-left: 0.5em;} 
+    /*.counter h2 { font-size: 1.8em; }*/
+    #ContentPlaceHolder1_wuc_putno1_Div1, #ContentPlaceHolder1_wuc_putno1_datumi_do_multi { padding-right: 0; }
+    #ContentPlaceHolder1_wuc_putno1_datumi_do_multi { width: 59%; }
+    .trajanjeDana { padding-left: 0; padding-right: 0; width: 29%; }
+    .okvir .five { width: 40%; }
+    .okvir .seven { width: 59%; }
+    .proveraPodataka span b { font-size: 1.5em; }
+    .proveraPodataka .six .ugovarac_osiguranja .three { width: 35%; }
+    .forma .ugovarac_osiguranja .nine { width: 65%; }
+    .forma .margin_input .entypo-mail { width: 49%; }
+    .forma .margin_input .entypo-mail.disabled { width: 57%; }
+    .ostaliOsiguranici { padding-left: 0.3em; padding-right: 0.3em; }
+    .dbf_grupa .ostaliOsiguranici .ostaliOsiguraniciInput { min-height: 100px; }
+    .redBr { padding: 1em 0;}
+    .ostaliOsiguranici .osiguranikIme { width: 14%; }
+    .ostaliOsiguranici .osiguranikPrezime, .ostaliOsiguranici .osiguranikTelefon { width: 19%; }
+    .ostaliOsiguranici .osiguranikPasos, .ostaliOsiguranici .osiguranikJmbg { width: 22%; }
+    .dbf_grupa .bUlica {width: 72%; }
+    .data_hh .eight .input_hh .input_naslov, .destination_hh.margin_input .input_naslov { font-size: 1em; }
+    .porodicno.person_counter{width:33%;}
+    .porodicno.person_counter .godineVrednost {padding: 10px 40% 0 0 !important;}
+
+    .hh_box .rl_container .twelve a .box_proizvod_info {min-height: initial;}
+     .counter  .row .three h2{height:2em;line-height:0.8em;}
+     .counterNum.columns.w19p h2{font-size:2em;}
+     .data_hh .eight #gco .input_naslov {line-height: inherit;}
+
+    /*.hh_box .rl_container .twelve a img { float: none; width: 60%; margin: auto; display: block; }
+    .hh_box .rl_container .twelve a p { margin-bottom: 2em; }*/
+    .vremeOdHH, .datum_do_hh { width: 39%; }
+    .trajanjeDanaHH { width: 20%; }
+    _:-ms-input-placeholder, :root .select2-container--default .select2-selection--single .select2-selection__placeholder { padding-left: 0; }
+    _:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail { width: 51%; }
+    _:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail.disabled { width: 60%; }
+}
+
+@media screen and (max-width: 1150px) {
+    .person_counter .godineVrednost { padding: 10px 25% 0 0 !important;}
+}
+
+
+
+@media screen and (max-width: 1120px) {
+    .data_hh .eight .input_hh { width: 31%; }
+    /*.data_hh .eight .first_input { width: 30%; }*/
+    .hh_box .linija{margin-bottom: 0.5em;}
+    .hh_box .rl_container .twelve a p{margin-bottom: 3em;}
+    .box_proizvod_info > h3{padding: 0;height: 68px;}
+    .wuc4 h2.ws_naslov{line-height:initial;height: 2.2em;}
+    .dok_uplatnica { display: block; width: 100%; }
+    .skini_dokument, #ContentPlaceHolder1_wuc_placanjeKarticomUspesno_kreiranje_polise_uspesno { float: none; display: block; }
+    div.btn.six.ico.icomoon-file-pdf-o:before { right: unset; left: 0.7em; }
+
+}
+@media screen and (max-width: 1124px) {
+   .data_hh .eight #gco .input_naslov {line-height: 16px;}
+}
+
+@media screen and (max-width: 1100px) {
+    .person_counter .godineVrednost { padding-right:20%!important;}
+    .porodicno.person_counter .godineVrednost {padding-right: 35% !important;}
+}
+
+
+@-moz-document url-prefix() {
+        
+        @media screen and (max-width: 1100px) {
+            .porodicno.person_counter .godineVrednost {padding-right: 33% !important;}
+        }
+}
+
+@media screen and (max-width: 1025px) {
+    
+    /*.data_hh .eight .first_input { width: 27%; }*/
+    .destination_hh { width: 35%; }
+    .hh_box .rl_container .twelve a p{margin-bottom:1em;}
+    .forma .margin_input.placanje_hh .informacijePlacanje { min-height: 34em; }
+    .forma .margin_input.placanje_hh .informacijePlacanje .six .transakcija { min-height: 31em; }
+    .btn.doc_download.ico > a { padding: 1.2em 0 1.2em 3em; }
+    div.btn.six.ico.icomoon-file-pdf-o:before { right: 6.5em; }
+    _:-ms-input-placeholder, :root div.btn.six.ico.icomoon-file-pdf-o::before { left: 1em; }
+    .select2-container--default .select2-selection--single .select2-selection__placeholder {padding-left:0;}
+}
+@media screen and (max-width: 970px) {
+
+    .okvir .two{width:17.766%;}
+}
+
+@media screen and (max-width: 960px) {
+    body, html, form { font-size: 13px; }
+    ul#main_menu li { padding-left: .3em; }
+    ul#main_menu li:nth-child(2), ul#main_menu li:nth-child(3) {padding-left: 0.3em;}
+    .progress-bar ol { width: 90%; }
+    .margin_input .znakMinus { padding: 0 0.2em; }
+    .margin_input .znakPlus { padding: 0 0.2em; }
+    .margin_input .person_counter { width: 33%; }
+    .margin_input .person_counter input.input { height: 2.4em; }
+    #ContentPlaceHolder1_wuc_putno1_Div1 { width: 35%; padding-right: 1em; }
+    #date_timepicker_start, #date_timepicker_end { padding-left: 3em; }
+    .trajanjeDana { width: 31%; }
+    .btn_nazad, .btn_napred { width: 100%; margin-bottom: 1em; }
+    #ContentPlaceHolder1_wuc_putno1_datumi_do_multi .vremeDo { width: 65%; }
+    .margin_input.info-box-active .help-text { position: relative; right: 0; margin: 0; width: 80%; margin-top: 0.5em; }
+    .help-text:before, .help-text-page3:after { display: none; }
+    .izabraliste_box .okvir .txtcenter { padding: 1.87em 1em; }
+    .ostaliOsiguranici { padding-left: 0.5em; }
+    .ostaliOsiguranici mark { top: 1.3em; }
+    .ostaliOsiguranici .osiguranikIme, .ostaliOsiguranici .osiguranikPrezime { width: 47.5%; }
+    .ostaliOsiguranici .osiguranikTelefon, .ostaliOsiguranici .osiguranikPasos, .ostaliOsiguranici .osiguranikJmbg { width: 33%; }
+    .forma .margin_input .entypo-mail, .forma .margin_input .entypo-mail.disabled { width: 100%; }
+    _:-ms-input-placeholder, :root .progress-bar .item::before { top: -35px; width: 70px; height: 70px; line-height: 70px; }
+    .iphone .ostaliOsiguranici .osiguranikTelefon, .iphone .ostaliOsiguranici .osiguranikPasos, .iphone .ostaliOsiguranici .osiguranikJmbg, .iphone.ostaliOsiguranici .ostaliOsiguraniciInput { padding: 1em 0.5em!important; }
+    .osnovni.entypo-home:before, .standardni.entypo-home:before, .plus.entypo-home:before { right: -0.5em; }
+    .margin_input .input_field .input_destination { width: 430px; height: 3.3em; }
+    .putnok3 .select2-container--open .select2-dropdown--below, .hhk3 .select2-container--open .select2-dropdown--below { margin-top: 0.68em; }
+    .person_counter .godineVrednost { padding-right:35%!important;}
+
+    .inner_box_hh .four .row .paketi { padding-left: 0; }
+    /*.data_hh .eight .first_input { width: 46%; }
+    .data_hh .eight .first_input input { width: 74%; }*/
+    .destination_hh { width: 100%; float: none; padding-top: 1em; }
+    .data_hh .eight .input_hh { width: 48%; }
+    .first_input + .input_hh { float: right; }
+    .data_hh .eight .first_input #input_m2, .data_hh .eight .input_hh #rsd { width: 100%; }
+    .ph_m2, .ph_rs { right: 1em; }
+    .vremeOdHH, .datum_do_hh, .trajanjeDanaHH { width: 49%; }
+    .datum_do_hh { float: right; }
+    .trajanjeDanaHH .broj_dana .columns { width: 95%; }
+    .data_hh .eight .destination_hh .input_destination_hh { padding-left: 48px; }
+    /*.data_hh .eight #gco {width: 48%;}*/
+    .data_hh .eight #gco .input_naslov {line-height: inherit;}
+    _:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail { width: 100%; }
+    _:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail.disabled { width: 100%; }
+    _:-ms-input-placeholder, :root .data_hh .eight .destination_hh .input_destination_hh { padding-left: 53px; }
+}
+
+@-moz-document url-prefix() {
+
+        @media screen and (max-width: 960px) {
+            .person_counter .godineVrednost { padding-right:34%!important;}
+        } 
+        @media screen and (max-width: 900px) {
+            .porodicno.person_counter .godineVrednost {padding-right: 29% !important;}
+        }
+}
+
+@media only screen and (max-width: 930px) {
+    .hh_box .rl_container .twelve a img { width: 100%;  display:block;}
+    .hh_box .rl_container .twelve a .box_proizvod_info { width: 100%; display:block;height:initial !important;}
+}
+
+@media screen and (max-width: 880px) {
+    .porodicno.person_counter .godineVrednost {padding-right: 30% !important;}
+    ul#main_menu li, ul#main_menu li:nth-child(2), ul#main_menu li:nth-child(3) {padding-left: 0.2em;} 
+}
+
+
+@-moz-document url-prefix() {
+        @media screen and (max-width: 860px) {
+            .porodicno.person_counter .godineVrednost {padding-right: 25% !important;}
+        }
+        @media screen and (max-width: 850px) {
+            .person_counter .godineVrednost { padding-right:31%!important;}
+        }
+}
+
+
+@media only screen and (max-width: 850px) {
+        
+    .proveraPodataka span.three, .proveraPodataka label.nine{ font-size: 1.2em;}
+    .margin_input .inner_box .six { width: 100%; margin-bottom: 1em; padding-left: 1em!important; padding-right: 1em!important; }
+    .meni_main .menu ul#main_menu li a {font-size: 0.84em;}
+    /*.proveraPodataka editbtn{ top:-20em;}*/
+    .forma .margin_input .entypo-mail { width: 100%; }
+    .tekstSlide h3 { font-size: 3.5em }
+    .tekstSlide p, .tekstSlide .sliderBtn a { font-size: 1.5em; }
+    /*.razlicitoDugme .forma .margin_input .proveraPodataka .six editbtn { top: -20.9em; }*/
+    .proveraPodataka:nth-child(2) { margin-top: 2em; }
+    .gvnPadding { padding-top: 0; }
+    .forma .margin_input.placanje_hh .informacijePlacanje { min-height: 54em; }
+    .forma .margin_input.placanje_hh .informacijePlacanje .six .transakcija { min-height: 20em; }
+    .okvir .five{width:39%;}
+    div.btn.six.ico.icomoon-file-pdf-o:before { left: 0.8em; }
+    .btn.doc_download.ico > a { padding: 1.2em 1em; }
+    #ContentPlaceHolder1_wuc_placanjeKarticomUspesno_kreiranje_polise_uspesno.margin_input .btn.ico a { padding: 1.2em 1em; }
+}
+
+@media screen and (max-width: 835px) {
+    body, html, form { font-size: 12px; }
+    .icomoon-calendar:before { right: 0.6em; top: 0.6em; }
+    .trajanjeDana { width: 32%; }
+    /*.okvir { height: 19em; }*/
+    .margin_input .eight infobtn { top: 8px; }
+    mark::after { line-height: 20px; }
+    /*.iphone .margin_input .eight infobtn label:before { top: -0.1em; }*/
+    .rangeslider--horizontal .rangeslider__handle { line-height: 5; }
+    .vremeOdHH, .datum_do_hh, .trajanjeDanaHH { width: 100%; padding-bottom: 1em; }
+    .datum_do_hh { float: none; }
+    .trajanjeDanaHH .broj_dana .columns { width: 100%; }
+    .forma .margin_input.placanje_hh .informacijePlacanje { padding-bottom: 1em; }
+    .date_timepicker_start_mask_hh, .date_timepicker_end_mask_hh, .start_timepicker_hh, .end_timepicker_hh { margin: 0; }
+    .start_timepicker_hh #date_timepicker_start_mask, .end_timepicker_hh #date_timepicker_end_mask { width: 100%; padding: 0; }
+    .datum_kraja_ico { left: 0; }
+    .sume .rangeNumber { width: 38%; line-height: 0; margin-top: 0.4em; }
+    .margin_input .input_field .input_destination { height: 3.6em; }
+    .data_hh .eight .destination_hh .input_destination_hh { padding-left: 45px; }
+    .select2-container--open .select2-dropdown--below { margin-top: 0.32em; }
+    .putnok3 .select2-container--open .select2-dropdown--below, .hhk3 .select2-container--open .select2-dropdown--below { margin-top: 0.79em; }
+    .forma .ugovarac_osiguranja .ugovarac_osiguranja_I_label { width: 49%; }
+    .forma .ugovarac_osiguranja .ugovarac_osiguranja_II_label { width: 49%; }
+
+
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .person_counter .godineVrednost { padding-right:25%!important;}
+    .porodicno.person_counter .godineVrednost {padding-right: 25% !important;}
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .menu { padding-top: 0.5em; }
+    .meni_main .menu ul#main_menu li a { font-size: 0.72em;}
+    .progress-bar { padding-bottom: 50px; }
+    .w25 { width: 49%; margin-top: 0.5em; }
+    .margin_input label.radio_btn { width: 29%; padding: 1em 0; }
+    .vremeDo .four { width: 49%; }
+    .margin_input .btn.ico a { line-height: 1; padding-top: 0.5em; }
+    .btn.doc_download.ico > a { padding: 1.3em 1em; }
+    .forma .margin_input .entypo-mail { width: 100%; }
+    .btn > a { padding: 1em; }
+    ul#main_menu li { padding-left: 0.2em; } /*bilo .5em*/
+    .slajder_info_beli { position: relative; padding-top: 3em; background-color: #F2F2F2; left: 0; margin: auto; }
+    /*.bx-viewport { height: 460px !important; }*/
+    .bxslider li { background-color: #F2F2F2; padding-bottom: 2em; }
+    .bx-wrapper img { opacity: 1; }
+    .slajder_info_beli h3, .slajder_info_beli p { color: black; text-shadow: none; }
+    .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item { display: none !important; }
+    .slider { border-bottom: none; }
+    .sliderBtn { margin-bottom: 2em; }
+    .content { padding: 2.5em 0 5.5em; }
+    #ContentPlaceHolder1_wuc_putno1_Div1, #ContentPlaceHolder1_wuc_putno1_datumi_do_multi { width: 100%; }
+    .trajanjeDana { width: 30%; }
+    /*.okvir { height: 28em; }*/
+    .izabraliste_box .okvir .txtcenter { margin: 1%; }
+    .okvir .two, .okvir .five { width: 31%; }
+    .okvir .seven { width: 97%; }
+    .okvir .five, .okvir .seven { float: left; }
+    /*.data_hh .eight #gco {width: 48%;}*/
+    /*.dbf_grupa .marginBottom05 .input { width: 350px; }
+    .dbf_grupa .marginBottom05 .ulicaInput { width: 255px; }*/
+    .margin_input .input_field .input_destination { width: 330px; }
+    .bx-wrapper .bx-controls-direction a { top: 28%!important; }
+    _:-ms-input-placeholder, :root .bx-wrapper .bx-controls-direction a { top: 25%!important; }
+    .porodicno.person_counter .godineVrednost {padding-right: 20% !important;}
+    .sume span, .sume .rangeNumber { width: 100%; }
+    .sume .rangeNumber { float: none; text-align: left; }
+    .tekstSlide { position: relative; background-color: #f2f2f2; }
+    .tekstSlide h3, .tekstSlide p { color: #4A4A4A; }
+    .inner_box_hh { display: block; }
+    .osnovni.entypo-home:before, .standardni.entypo-home:before, .plus.entypo-home:before { right: 0; }
+    .inner_box_hh .four .row .paketi { padding-left: 0.7em; }
+    .row .columns.osnPaket, .row .columns.staPaket, .row .columns.pluPaket { margin-left: 10em; margin-bottom: 1.5em; width: 55%;}
+    _:-ms-input-placeholder, :root .sume .rangeNumber { display: block; float: none; text-align: left; width: 100%; }
+
+    @-moz-document url-prefix() {
+        .counter h2 { font-size: 1.5em; }
+}
+    .counter .row .counterNum.three{min-height:12em;width: 49%; padding-bottom: 2em;}
+    /*.counter_hh .counterNum.columns.three{height:12em;}*/
+    .counter  .row .three h2{height:initial;line-height:1.4em;}
+    .counter {padding: 2em 0 2em 0;}
+    .counterNum.columns.w19p{width:33.333%;min-height:16em;}
+}
+
+
+@media screen and (max-width: 690px) {
+    .porodicno.person_counter .godineVrednost {padding-right: 10% !important;}
+}
+
+@media screen and (max-width: 660px) {
+    .hamburger {display: block;float: right; }
+    .menu {position: absolute;top: -0.3em;right: 1%;}
+    .meni_main .menu ul#main_menu li a {font-size: 1em;}
+    .tel_br {margin-top: 0;}
+    ul#main_menu li {display: block;}
+    span.lines { display: inline-block; width: 30px; height: 5px;background: black;border-radius: .28571rem;transition: .3s;position: relative;}
+    .lines:before, .lines:after { display: inline-block; width: 30px;height: 5px;background: black; border-radius: .28571rem; transition: .3s; position: absolute;left: 0; content: ''; -webkit-transform-origin: .28571rem center; transform-origin: .28571rem center;}
+    .lines:before {top: 10px;}
+    .lines:after {top: -10px;}
+    .mobileMenu_active span.lines {background: transparent; }
+    .mobileMenu_active .lines:before, .mobileMenu_active .lines:after {-webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; top: 0; width: 30px; }
+    .mobileMenu_active .lines:before {-webkit-transform: rotate3d(0,0,1,45deg); transform: rotate3d(0,0,1,45deg);}
+    .mobileMenu_active .lines:after { -webkit-transform: rotate3d(0,0,1,-45deg);transform: rotate3d(0,0,1,-45deg);}
+    #main_menu { /*transition: max-height 0.15s ease-out;*/overflow: hidden; max-height: 0;}
+    .mobileMenu_active #main_menu {max-height: 500px;transition: max-height 0.25s ease-in;position: absolute;z-index: 999;background-color: #ffffff;right: 0;padding: 0.5em;top: 100%; width: 12em;}
+    ul#main_menu li a {display: block; text-align: center;padding-top: 10px;padding-bottom: 10px;} 
+    .person_counter .godineVrednost { padding-right:15%!important;}
+}
+
+@media screen and (max-width: 659px) {
+   .data_hh .eight #gco .input_naslov {line-height: 16px;}
+}
+@media screen and (max-width: 625px) {
+    #podaci_o_licu .block:last-child .ugovarac_osiguranja_I_label { width: 35%; }
+    /*#podaci_o_licu .nazivUlice { margin-right: 0; }*/
+    #podaci_o_licu .brojUl b { margin-top: 0; margin-left: 1em; }
+    .dbf_grupa .marginBottom05 .six { width: 255px; }
+    .ostaliOsiguranici .osiguranikIme { width: 47%; }
+    .box_proizvodHH .boxImg, .box_proizvod_infoHH, .data_hh .eight .input_hh  { width: 100%; }
+    .data_hh .eight .first_input { padding-bottom: 1em; }
+    .bx-wrapper .bx-controls-direction a { top: 21%!important; }
+    .margin_input .person_counter { width: 49%; }
+    
+    .data_hh .eight #gco .input_naslov {line-height: inherit;}
+    .person_counter .godineVrednost { padding-right:35%!important;}
+    .porodicno.person_counter .godineVrednost {padding-right: 38% !important;}
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .porodicno.person_counter .godineVrednost {padding-right: 25% !important;}
+}
+
+@media screen and (max-width: 590px) {
+    .counter .row .counterNum.three{min-height:14em;}
+    .counter  .row .three h2{height: 2em;line-height: 1.4em;padding: 0;}
+    .counter  .row .three h3{padding:0.5em 0.8em;}
+    .counterNum.columns.w19p{min-height:18em;}
+}
+
+@media screen and (max-width: 580px) {
+    .hamburger { display: block; float: right; }
+    .menu {position: absolute;top: -0.3em;right: 1%;}
+    .meni_main .menu ul#main_menu li a {font-size: 1em;}
+    .tel_br {margin-top: 0;}
+    ul#main_menu li { display: block; }
+    span.lines { display: inline-block; width: 30px; height: 5px; background: black; border-radius: .28571rem; transition: .3s; position: relative; }
+    .lines:before, .lines:after { display: inline-block; width: 30px; height: 5px; background: black; border-radius: .28571rem; transition: .3s; position: absolute; left: 0; content: ''; -webkit-transform-origin: .28571rem center;  transform-origin: .28571rem center; }
+    .lines:before { top: 10px; }
+    .lines:after { top: -10px; }
+    .mobileMenu_active span.lines { background: transparent; }
+    .mobileMenu_active .lines:before, .mobileMenu_active .lines:after { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; top: 0; width: 30px; }
+    .mobileMenu_active .lines:before { -webkit-transform: rotate3d(0,0,1,45deg); transform: rotate3d(0,0,1,45deg); }
+    .mobileMenu_active .lines:after { -webkit-transform: rotate3d(0,0,1,-45deg); transform: rotate3d(0,0,1,-45deg); }
+    #main_menu{ /*transition: max-height 0.15s ease-out;*/ overflow: hidden; max-height: 0; }
+    .mobileMenu_active #main_menu { max-height: 500px; transition: max-height 0.25s ease-in; position: absolute; z-index: 999; background-color: #ffffff; right: 0; padding: 0.5em; top: 100%; width: 12em; }
+    ul#main_menu li a {display: block; text-align: center; padding-top: 10px;padding-bottom: 10px;} 
+    .progress-bar .item:before { top: -35px; width: 65px; height: 65px; line-height: 65px; }
+    .slajder_info_beli { margin: 0; width: 100%; }
+    .slajder_info_beli p{padding:0 5em;}
+    .linijaHome { margin-bottom: 0; } 
+    /*.counter { padding-bottom: 2em; padding-top: 0; }*/
+    .counterNum.columns.three{width: 49%; min-height: 10em; height:11em;}
+    .counter h3 { font-size: 1.2em; padding: 0.5em; }
+    .content { padding: 2.5em 0; }
+    .content .podnaslov { text-align: center; }
+    .content .podnaslov_text { padding: 1em 4em 2em 4em; }
+    .ikonice label { padding-left: 0.5em; }
+    .content .box_proizvod { width: 90%; margin-bottom: 2em; margin-left: 5%; }
+    .margin_input .inner_box .six { width: 100%; margin-bottom: 1em; }
+    .lice_podaci .eight, .lice_podaci h1, .lice_podaci+.row+eight+span { width: 100%; }
+    .entypo-mail { width: 100%; }
+    #nacinIsporuke .input { width: 70%; } 
+    _:-ms-input-placeholder, :root .margin_input .btn.ico { width: 100%; }
+    .margin_input .forma_cehk p { padding-right: 0.5em; }
+    .sablon_wizard_footer .row .wizard_footer { width: 100%; } 
+    .margin_input .eight { width: 100%; }
+    /*.razlika .linija2 { width: 100%; }*/
+    .proveraPodataka .six { padding-left: 1em!important; padding-right: 1em!important; }
+    /*editbtn { top: -20em; }*/
+    /*.forma .izabraliste_box { padding-left: 0; padding-right: 0; }*/
+    _::-moz-svg-foreign-content, :root .margin_input .btn.ico.entypo-mail::before { line-height: 0.7em; }
+    .margin_input .input_field .input_destination { width: 430px; }
+    .headerImage { margin-bottom: 3em; }
+    .margin_input .person_counter { width: 33%; }
+    .margin_input .input_field .single { width: 100%; }
+    .margin_input.info-box-active .help-text { width: 95%; }
+
+    /*.dbf_grupa .marginBottom05 { width: 350px; margin: 0; }*/
+    /*.width33 { width: 33%; }
+    .width47 { width: 46%; }*/
+    /*.ulica .bUlica { width: 255px; }*/
+    .brojUlice { margin: 0; }
+    .ulicaInput { width: 250px; }
+    .dbf_grupa .eight .ulica .marginaUlica { margin: 0; }
+
+    .input_naslov { font-size: 1.143em; }
+    .sume .rangeNumber { display: block; float: none; text-align: left; }
+    .trajanje_hh { font-size: 1em; height: 3.27em; }
+    .row .columns.osnPaket, .row .columns.staPaket, .row .columns.pluPaket { margin-left: 2em; width: 90%; }
+    .osnovni.entypo-home:before, .standardni.entypo-home:before, .plus.entypo-home:before { right: -5%; }
+    .box_proizvod img{width:100%;}
+     .putno_box .box_proizvod_info > h3{min-height: initial;}
+     .counterNum.columns.w19p .linijaHH{margin-top:1em;}
+    /*_::-webkit-full-page-media, .hhBoja + script + .sablon_wizard_footer .row .wizard_footer { width: 100%; }*/
+    .hhBoja + script + .sablon_wizard_footer .row .wizard_footer { width: 100%; }
+    
+     _:-ms-input-placeholder, :root .bx-wrapper .bx-controls-direction a { top: 20%!important; }
+
+     /*dodatak za responsive 3.2.2020*/
+    .putno #form1 .razlicitoDugme .row .tabelaUsluge .tbl_paketi tbody .tbl_podaci .prvatd {width: 55%;}
+    .putno #form1 .razlicitoDugme .row .tabelaUsluge .tbl_paketi tbody .tbl_podaci .drugatd, .putno #form1 .razlicitoDugme .row .tabelaUsluge .tbl_paketi tbody .tbl_podaci .trecatd{width:22.5%}
+    table.tbl_paketi .tbl_dugme .trecatd .odabrati2{width:93%}
+    table.tbl_paketi .tbl_dugme td.drugatd span, table.tbl_paketi .tbl_dugme td.trecatd span{font-size:10px;}
+    .tbl_dugme .drugatd, .tbl_dugme .trecatd {padding: .5em 0 !important;}
+}
+
+@media screen and (max-width: 520px) {
+    .person_counter .godineVrednost { padding-right:23%!important;}
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .progress-bar .item:before { top: -27px; width: 55px; height: 55px; line-height: 55px; } 
+    .kontLeft, .kontRight { width: 100%; float: none; margin: 0; }
+    .margin_input .btn.ico.entypo-mail a { font-size: 1.3em; }
+    .inner_box_hh .four .row .paketi { padding-left: 0; }
+    .osnovni.entypo-home:before, .standardni.entypo-home:before, .plus.entypo-home:before { top: 45%; }
+    .ikonice { top: 5%; right: 5%; }
+    .select2-container--default .select2-selection--single .select2-selection__rendered { line-height: 2.5; }
+    /*.okvir { height: 26.5em; }*/
+    .forma .margin_input .proveraPodataka { padding-bottom: 1em; }
+    .counter_hh .counterNum.columns.three{height:12em;}
+    .counter  .row .three h2{min-height: initial;line-height: 0.8em;/*padding-bottom: 1em;*/}
+    .okvir .two, .okvir .five{width:48%!important;}
+    .okvir .seven{width:98%!important;}
+    .doc_download { width: 100%; }
+    _:-ms-input-placeholder, :root .progress-bar .item::before { top: -30px; width: 60px; height: 60px; line-height: 60px; }
+    .iphone .ostaliOsiguranici .osiguranikTelefon, .iphone .ostaliOsiguranici .osiguranikPasos, .iphone .ostaliOsiguranici .osiguranikJmbg, .iphone.ostaliOsiguranici .ostaliOsiguraniciInput {padding: 0em 0.5em !important;}
+    .safariObavest {bottom: 4px!important;}
+    .mac-os .forma .napomena, .android .forma .napomena {padding-bottom: 27px!important;}
+}
+
+@media screen and (max-width: 470px) {
+    .porodicno.person_counter .godineVrednost {padding-right: 10% !important;}
+}
+
+@media screen and (max-width: 450px) {
+    .android .margin_input infobtn label:before{top: -0.67em;}
+    .putnok3.android .margin_input infobtn label:before{top: -0.17em;}
+}
+
+@media screen and (max-width: 430px) {
+    .person_counter .godineVrednost { padding-right:15%!important;}
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .headerImage { margin-bottom: 2em; }
+    .slajder_info_beli { padding-top: 2em; }
+    .progress-bar { padding: 30px; }
+    .tel_br h2, .tel_br label { display: none; }
+    .menu { width: 100%; top: 2em; right: 0; }
+    .tel_br .icomoon-phone::before { top: 1em; font-size: 3em; left: -2em; z-index: 999; }
+    .icomoon-phone::before:active { background-color: #111118; color: #fff; }
+    .bx-viewport { height: 390px !important; }
+    .mobileMenu_active #main_menu { top: 100%; right: 1em; width: 100%; }
+    .counter .three { width: 49%; }
+    .margin_input label.radio_btn { width: 100%; }
+    .margin_input .btn { margin-bottom: 0; }
+    .w25 { width: 100%; }
+    .vremeDo .four { width: 80%; }
+    /*.okvir { height: 20em; }*/ 
+    _:-ms-input-placeholder, :root .okvir { height: 28em; }
+    .txtcenter { width: 49%; padding-bottom: 0.5em; }
+    #podaci_o_licu .marginBottom05 input { width: 100%; }
+    .marginBottom05 .nopadding { width: 100%; }
+    .margin_input .kucni_br { width: 30%; border-left: 1px solid #4a4a4a; }
+    .margin_input .btn.ico a { padding-top: 1em; }
+    .progress-bar { padding-left: 5px; padding-right: 5px; }
+    .iphone .margin_input .eight infobtn { top: -0.5em; }
+    .margin_input .input_field.ico:before { line-height: 1.1em; }
+    .iphone .margin_input .input_field.ico:before { line-height: 0.5em; }
+    _:-webkit-full-screen, :root .radio.checked span:before { padding: 10% 15%; }
+    /*.margin_input .btn.ico.entypo-mail:before { font-size: 4.5em; }*/
+    /*.margin_input .forma_cehk label.toggle.checked span:before { line-height: 3.75em; font-size: 5em; top: -1.66em; left: -0.03em; }*/
+    #nacinIsporuke .input { width: 80%; }
+    /*.osnovni.entypo-home:before, .standardni.entypo-home:before, .plus.entypo-home:before {  }*/
+    #menu { margin-left: 7em; padding: 0.5em; border-top: none; }
+    .left-icomoon:before { left: -0.5em; }
+    .bx-wrapper .bx-controls-direction a { top: 18.5%!important; }
+    .index_strana #form1 .counter .row .three .linijaHome { margin-bottom: 0; }
+    .counter h2 { padding-bottom: 0.2em; }
+    .counterNum.columns.three{min-height:16em;}
+    .counterNum.columns.w19p{min-height:20em;}
+    .counterNum.columns.w19p .linijaHH{margin-top:2em;}
+    .margin_input .person_counter { width: 100%; text-align: center; }
+
+    _:-ms-input-placeholder, :root .radio.checked span::before { top: 2px; }
+    _:-ms-input-placeholder, :root .progress-bar .item::before { top: -25px; width: 55px; height: 55px; line-height: 55px; }
+    _:-ms-input-placeholder, :root .margin_input .forma_cehk label.toggle.checked span::before { font-size: 1.5em; }
+    _:-ms-input-placeholder, :root .margin_input .btn.ico.entypo-mail::before { line-height: 0.5em; }
+    _:-ms-input-placeholder, :root .margin_input .btn.ico a { padding-top: 0.5em; }
+    /*_:-ms-input-placeholder, :root editbtn { top: -19.5em; }*/
+    _:-ms-input-placeholder, :root .menu { padding-top: 0; }
+    _:-ms-input-placeholder, :root .tel_br .icomoon-phone::before { font-size: 0.9em; z-index: 999; }
+    _:-ms-input-placeholder, :root .left-icomoon::before { left: -1.8em; top: 0.4em; }
+    _:-ms-input-placeholder, :root div.btn.six.ico.icomoon-file-pdf-o::before { font-size: 0.8em; left: 1.5em; }
+    _:-ms-input-placeholder, :root .bx-wrapper .bx-controls-direction a { top: 15%!important; }
+
+    _::-webkit-full-page-media, .content { padding: 1.5em 0; }
+    _::-webkit-full-page-media, .content .podnaslov_text { padding: 1em; padding-bottom: 2em; }
+    _::-webkit-full-page-media, .tel_br .icomoon-phone:before { font-size: 3em; border-radius: 45%; top: 1em; left: -2em; }
+    _::-webkit-full-page-media, .slajder_info_beli { width: 100%; padding-left: 0.2em; padding-right: 0.2em; bottom: 0; }
+    _::-webkit-full-page-media, .slajedr_info_beli h3 { font-size: 2em; }
+    _::-webkit-full-page-media, .counter h2 { font-size: 1.3em; }
+    _::-webkit-full-page-media, .footer h2 { padding: 1em 0; }
+    _::-webkit-full-page-media, .social_list { width: 100%; }
+    _::-webkit-full-page-media, .fa-facebook-f:before, .fa-linkedin-in:before, .fa-instagram:before { vertical-align: middle; padding: 0.4em; }
+    _::-webkit-full-page-media, label { padding-right: 0; }
+
+
+    .iphone .radio.checked span:before { top: 40%; }
+    /*.iphone .proveraPodataka editbtn { top: -21.5em; }*/
+    .mac-os .margin_input .eight infobtn label:before{top: 0.12em;}
+   
+    .person_counter .godineVrednost { padding-right:0%!important;}
+    .porodicno.person_counter .godineVrednost {padding-right: 0% !important;}
+}
+
+
+@media screen and (max-width: 360px) {
+    /*.okvir { height: 30em; }*/
+    /*.android .left-icomoon:before { left: -3.5em; top: 0.6em; }*/
+    .progress-bar .item:before { top: -25px; width: 50px; height: 50px; line-height: 50px; }
+    .txtcenter { width: 100%; }
+    .content .podnaslov_text { padding: 1em 2em 2em 2em; }
+    .podnaslov_text li { padding-bottom: 0.5em; }
+    .tbl_paketi th, .tbl_paketi td { padding: 5px; }
+    .margin_input .btn.ico a { padding-top: 0.2em; }
+    table.tbl_paketi .entypo-check::before { width: 10px; }
+    .slajder_info_beli p{padding:0 3em;}
+    footer .footer_link { width: 49%; margin-bottom: 1em; height: 96px; }
+    .infos { padding-top: 0; margin-bottom: 2em; }
+    .paddingBottom2em { padding-bottom: 0!important; }
+    .margin_input .eight infobtn label:before { top: -0.67em; }
+    .trajanjeDana { width: 32%; }
+    .iphone .trajanjeDana { width: 34%; }
+    .razlicitoDugme .paddingTop2em { padding-top: 1em; }
+    /*.okvir { height: 34em; }*/
+    .okvir .two, .okvir .five { width: 47%; }
+    .okvir .seven { width: 96%; }
+    .dbf_grupa .marginBottom05 { width: 315px; }
+    .dbf_grupa .marginBottom05 .six { width: 195px; }
+    #podaci_o_licu .brojUl b { margin-left: 0; }
+    /*.margin_input .kucni_br { margin-left: 5%; }*/
+    .margin_input .person_counter { text-align: center; }
+    /*.margin_input .forma_cehk label.toggle.checked span:before { line-height: 0.75em; top: -0.4em; }*/
+    .ostaliOsiguranici .osiguranikTelefon, .ostaliOsiguranici .osiguranikPasos, .ostaliOsiguranici .osiguranikJmbg { width: 50%; }
+    .android table.tbl_paketi .entypo-check:before { line-height: 0.5; left: -0.2em; }
+    .android .margin_input .btn.ico.entypo-mail:before { line-height: 1.1;  }
+    .android .margin_input .btn.ico.entypo-mail a { padding-top: 0.5em; padding-bottom: 0.5em; font-size: 1.2em; }
+    .android .forma .transakcija { min-height: 16em!important; }
+    .iphone #podaci_o_licu .marginBottom05 input { width: 85%; }
+    .iphone .ulica .bUlica { width: 210px; }
+    .iphone .dbf_grupa .marginBottom05 .six { width: 190px; }
+    .iphone .margin_input .kucni_br { width: 20%; }
+    .iphone .margin_input .eight .entypo-search { margin-top: 0.5em; }
+    .iphone .ostaliOsiguranici .osiguranikTelefon, .iphone .ostaliOsiguranici .osiguranikPasos, .iphone .ostaliOsiguranici .osiguranikJmbg { padding: 0 0.5em!important; }
+    /*.iphone editbtn { top: -23.5em; }*/
+    .iphone .margin_input .eight infobtn label:before { top: 0.17em; }
+    .counter .row .counterNum.three, .counterNum.columns.w19p{min-height:12em;width:100%;}
+    .counter .row .three h2{padding-bottom: 0.5em;height: initial;line-height: 0.8em;}
+    .counter_hh .columns.three{min-height:12em;}
+    .counterNum.columns.w19p .linijaHH{margin-top:initial;}
+    /*.counter_hh .row .three h2{padding-bottom:0.5em;height: initial;line-height: 1.4em;}*/
+    .box_proizvod_info{max-height:22em;}
+    div.btn.six.ico.icomoon-file-pdf-o:before { font-size: 1.4em; left: 1em; }
+    _::-webkit-full-page-media, .margin_input .btn.ico a { padding-top: 1em;  }
+    _::-webkit-full-page-media, div.btn.six.ico.icomoon-file-pdf-o::before { left: 0.8em; font-size: 2.8em; }
+}
+
+

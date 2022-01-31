@@ -1,0 +1,173 @@
+﻿    .wuc_eon_tree_container { position:relative;}
+        .wuc_eon_tree_container label { min-height:0; padding:0;}
+
+
+
+    .eon_tree { position:relative; padding:10px 10px; }
+
+    .eon_tree ul 
+    {
+        padding-left:20px;
+        display:none;
+        box-sizing:border-box;
+        position:relative;
+        padding:0 0 0 6px;
+    }
+
+
+    .eon_tree li
+    {
+        box-sizing:border-box;
+        height:100%;
+        position:relative;
+        min-height:2em;
+        padding: 0px 0 0 7px;
+    }
+
+    .eon_tree  li:last-child:before
+    {
+         border-left: 1px dotted transparent !important;
+    }
+
+    .eon_tree li::before
+    {
+        content:'';
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 14px;
+        height: 100%;
+        border-top: 1px dotted gray;
+        border-left: 1px dotted gray;
+    }
+
+    .eon_tree li:first-child:after
+    {
+        clear:both;
+        content:'';
+        height:100%;
+        position: absolute;
+        top: -10px;
+        left: 0px;
+        width: 14px;
+        height: 20px;
+        border-bottom: 1px dotted gray;
+        border-left: 1px dotted gray;
+    }
+
+    .eon_tree li.ui-sortable-helper:before, .eon_tree li.ui-sortable-helper:after,  .eon_tree li.ui-draggable-dragging:after { border:1px solid transparent; }
+    
+    .eon_tree li.expanded::after
+    {
+        border-bottom:1px dotted transparent;
+    }
+
+    .eon_tree li.expanded > ul  { display:block; }
+
+    .eon_tree_cvor, .eon_tree_icon, .eon_tree_checkbox {
+        position:absolute; 
+        top:1px;
+        left:5px;
+        cursor:pointer;
+    }
+
+    .eon_tree_cvor:hover { color: #4cacec; }
+    .eon_tree_icon { left:22px; width:20px; cursor:default; top:4px;}
+    .eon_tree.Checkboxes .eon_tree_icon { left:4em; }
+    .eon_tree_checkbox { left:1.6em; width:20px; top:4px; }
+
+    number {     
+    background-color: #f9f9f9;
+    padding: 1px 3px;
+    font-size: 9px;
+    top: -5px;
+    position: relative;
+    border-radius: 8px;
+    color: #4cacec;
+    border: 1px solid;
+}
+    #tree  { /*max-height:800px; overflow-y:scroll; background-color:#eee;*/ }
+    li.imaDece > .eon_tree_podatak { font-weight: bold; transition: all 0.4s; }
+
+    li.imaDece > .eon_tree_cvor::before, .eon_tree_icon::before
+    {
+        position: absolute;
+        top:0px;
+        left:0px;
+        width:auto;
+        height:auto;
+        text-decoration: none;
+        zoom: 1;
+        z-index: 1;
+        content:'\25B8';
+        display:block;
+        font-size:28px;
+        line-height: 4px;
+        margin-top: 9px;
+    }
+
+   .eon_tree li.expanded.imaDece > .eon_tree_cvor::before
+   {
+       content:'\25BE';
+   }
+
+    .eon_tree_podatak
+    {
+        width:100%;
+        padding:3px;
+        padding-left:28px; 
+        box-sizing:border-box;
+        height:auto;
+        border:1px solid transparent;
+        cursor:pointer;
+    }
+    .eon_tree label.checkbox { display:none;}
+    .eon_tree.Checkboxes label.checkbox { display:inline-block;}
+    .eon_tree.Checkboxes .eon_tree_podatak {  padding-left: 58px;}
+    .eon_tree.noIcons .eon_tree_podatak {  padding-left: 18px;}
+    .eon_tree.noIcons.Checkboxes .eon_tree_podatak {  padding-left: 38px;}
+    .eon_tree.noIcons .eon_tree_icon::before { display:none;}
+
+    .eon_tree_podatak, .eon_tree_podatak div, .eon_tree_podatak label, .eon_tree_podatak span { cursor:pointer;}
+    .eon_tree_podatak:not(.editing):hover *{ color: #006CBB; }
+    .BedzTip2 .eon_tree_podatak:not(.editing):hover number { display:inline; position:absolute; }
+
+    .eon_tree .eon_tree_podatak.focused, .eon_tree root.focused { border: 1px solid #4cacec !important;     box-shadow: 0px 0px 0px 3px #F0F0FF;}
+
+    .eon_tree_icon:before
+    { font-size:26px; line-height:1px; margin:0; font-family:entypo; content:'';}
+
+    .nivo1 .eon_tree_icon:before { content: '\1F4BC'; }
+    .nivo2 .eon_tree_icon:before { content: '\1F4CE'; }
+    .nivo3 .eon_tree_icon:before { content: '\1F464'; }
+
+    .placeholder { border:1px solid #707070; background-color: #B0B0B0 ; border-bottom: 1px solid white ; border-right: 1px  solid  white;}
+
+    .nohover { background-color:initial !important; color:initial !important; text-decoration: initial !important; font-size: initial !important;}
+    .entypo-1::before { content: '1'; }
+    .entypo-2::before { content: '2'; }
+
+    .eTitle1 .toolbar a:hover { border: 1px solid transparent; background-color: inherit; box-shadow:none; }
+    .eTitle1 .toolbar a:hover::before  { color: #4cacec; }
+    .eTitle1 .toolbar { position:absolute; right:-100%; top:0; border:none; box-shadow:none;  -webkit-transition: right 1s; transition: right 1s; transition-timing-function: ease;}
+    .eTitle1:hover .toolbar { display:block; right:0;}
+
+    .eon_tree li.editing .eon_tree_icon::before { display:none;}
+
+    .BedzTip number  { position:relative; }
+    .BedzTip0 number { display:none; }
+    .BedzTip1 number { position:absolute; }
+    .BedzTip2 number { display:none; }
+    .treegridcontainer { float:right; box-sizing:border-box; height:100%;}
+    .eon_tree li.checked > .eon_tree_podatak, .eon_tree li.checked > .eon_tree_icon {background-color:#f0f0f0;}
+    .eon_tree li.checked > .eon_tree_podatak {  border-bottom: 1px solid white; }
+
+    .Checkboxes .eon_tree_podatak { min-height: 2em;}
+     
+    /*.toolbar {     box-shadow: 1px 1px 1px 0px #D0D0D0; border: 1px solid #A0A0A0; box-sizing:border-box;}
+    .toolbar a { width:20px; height:20px; display:inline-block;     top: 3px; border: 1px solid transparent; text-align:center;}
+    .toolbar a:before {color: #525252; font-weight: normal; font-size:30px; top:2px; left:0; line-height:0; position:relative;}
+    .toolbar a:hover { border: 1px solid #A0A0a0;     text-decoration: none; box-shadow: 1px 1px 1px #D0D0D0;     background-color: #F0F0F0;}
+    .toolbar label { margin-top: 8px;}
+
+    .toolbar a.active { border: 1px solid #000;}*/

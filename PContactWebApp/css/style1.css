@@ -1,0 +1,24 @@
+﻿body {
+    background: #e6e6e6;
+}
+
+.strana {    
+    margin: auto; width : 100%; max-width: 1080px; background: #cceeff; height : 100%;
+}
+
+.pocetniPrikaz, .sortiraniPrikaz {
+    text-align: center;
+}
+
+.sred {
+    text-align: center;
+}
+
+.natpis {
+    color: red;
+}
+
+.vrednost {
+    color: green;
+}
+
