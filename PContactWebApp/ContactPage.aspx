@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 
-    <%--<link href="css/Animate.css" rel="stylesheet" />--%>
+    <link href="css/Animate.css" rel="stylesheet" />
     <link href="css/select2.css" rel="stylesheet" />
     <link href="css/jquery.datetimepicker.css" rel="stylesheet" />
     <%--<link href="css/eonTree.css" rel="stylesheet" />--%>
@@ -68,11 +68,20 @@
         
         
         <span><b>Tip lica</b></span>
-        <infobtn><label class="entypo-circled-help color_red" href="javasript:void(0);" onclick="info_window($(this));"></label></infobtn>
+        
 
 
         <div class="row margin_input paddingBottom2em tipLica">
             <div class="eight columns">
+                <infobtn><label class="entypo-circled-help color_red" href="javasript:void(0);" onclick="info_window($(this));"></label></infobtn>
+                   <div class="help-text info-box-content">
+                        <div class="help-content">
+                            <p><b>Teritorija putovanja</b></p>
+                              <p>Izaberite željenu destinaciju unosom bar nekoliko karaktera </p>
+
+                        </div>
+                    </div>
+
                     <div class="input_field ico entypo-search">
                         <select class="select" dbf="lice"  tabindex="1"></select>
                         <%--<input type="hidden" dbf="pol_s" value="" />--%>
@@ -92,7 +101,7 @@
                 <span><b>EmployeeZId</b></span>
                 <div class="marginBottom2">
                     <label class"templateEmployeeZId" emplo="!emplo!"></label>
-                    <input class="input" type="text" dbf="EmployeeZId" value="" maxlength="50" reg="[^\s]+" />
+                    <input class="input" type="text" dbf="EmployeeZId" value="" maxlength="50" reg="^.{9,}$" />
                 </div>
 
             </div>
