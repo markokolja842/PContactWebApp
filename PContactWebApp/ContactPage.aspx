@@ -77,7 +77,7 @@
                    <div class="help-text info-box-content">
                         <div class="help-content">
                             <p><b>Teritorija putovanja</b></p>
-                              <p>Izaberite željenu destinaciju unosom bar nekoliko karaktera </p>
+                              <p>Izaberite željenu destinaciju unosom bar nekoliko karaktera </p> <%--izmena--%>
 
                         </div>
                     </div>
